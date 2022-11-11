@@ -1,0 +1,17 @@
+<h1>{{include.title}}</h1>
+<div class="publications">
+  {% assign publication_list_count = include.list.size %}
+  {% for item in include.list %}
+    [{{publication_list_count}}]
+    <a style="text-decoration: none;" target= "blank" href="{{item.url}}"> {{ item.citation }} </a>
+    <a style="color: #52adc8;" href="{{item.pdf}}">[PDF]</a>
+    <details> <summary>Abstract</summary> {{ item.abstract }}</details>
+    <details> <summary>BibTeX</summary>
+    ```r
+    {{ item.bibtex }}
+    ```
+    </details><br><br>
+    {% assign publication_list_count = publication_list_count | plus:-1 %}
+{% endfor %}
+
+</div>

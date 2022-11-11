@@ -1,16 +1,26 @@
 ---
-layout: archive
-title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% if site.data.publications-featured %}
+  {% include publications-featured.html %}
 {% endif %}
 
-{% include base_path %}
+{% if site.data.publications-journal %}
+  {% if site.data.publications-featured %}
+***
+  {% endif %}
+  {% include publications.html title="International Jounal Papers" list=site.data.publications-journal %}
+{% endif %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+{% if site.data.publications-chapter %}
+***
+  {% include publications.html %}
+{% endif %}
+
+
+{% if site.data.publications-conference %}
+***
+  {% include publications.html %}
+{% endif %}

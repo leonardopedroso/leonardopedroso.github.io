@@ -1,0 +1,22 @@
+
+.publications{
+
+  text-align: justify;
+  line-height: 130%;
+  font-size: $type-size-4;
+  text-decoration: none;
+
+  a {
+    color: mix(#000, $gray, 40%);
+  }
+
+  details {
+    display: inline;
+  }
+
+  details summary {
+    cursor: pointer;
+  }
+
+
+}

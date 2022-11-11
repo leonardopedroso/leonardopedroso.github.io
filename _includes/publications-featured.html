@@ -1,0 +1,25 @@
+<div class="publications-featured">
+  <h1>Featured publications</h1>
+  {% if site.data.publications-featured %}
+  {%- assign news_size = site.data.news | size -%}
+  <div class="table-responsive">
+      <table class="table">
+        {%- assign news = site.data.news -%}
+        {% if site.data.settings.news.news_limit %}
+          {% assign news_limit = site.data.settings.news.news_limit %}
+        {% else %}
+              {% assign news_limit = news_size %}
+        {% endif %}
+        {% for item in news limit: news_limit %}
+          <tr>
+            <th>{{ item.date | date: "%b %-d, %Y" }}</th>
+            <th></th>
+            <td>
+                {{ item.content }}
+            </td>
+          </tr>
+        {%- endfor %}
+      </table>
+    </div>
+    {% endif %}
+</div>

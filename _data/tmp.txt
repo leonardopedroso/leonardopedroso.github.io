@@ -1,0 +1,40 @@
+
+
+
+  summary::-webkit-details-marker {
+  display:none;
+  }
+
+######
+"@article{pedroso2021discretecontrol,
+  title={Discrete-time decentralized linear quadratic control for linear time-varying systems},
+  author={Pedroso, Leonardo and Batista, Pedro},
+  journal={International Journal of Robust and Nonlinear Control},
+  year={2021},
+  publisher={Wiley Online Library},
+  doi = {10.1002/rnc.5772},
+}"
+
+"@Article{pedroso2021,
+  AUTHOR = {Pedroso, Leonardo and Batista, Pedro},
+  TITLE = {Efficient Algorithm for the Computation of the Solution to a Sparse Matrix Equation in Distributed Control Theory},
+  JOURNAL = {Mathematics},
+  VOLUME = {9},
+  YEAR = {2021},
+  NUMBER = {13},
+  ARTICLE-NUMBER = {1497},
+  DOI = {10.3390/math9131497}
+}"
+
+
+
+"@article{pedroso2021decentralizedtraffic,
+  title={Decentralized store-and-forward based strategies for the signal control problem in large-scale congested urban road networks},
+  author={Pedroso, Leonardo and Batista, Pedro},
+  journal={Transportation Research Part C: Emerging Technologies},
+  volume={132},
+  pages={103412},
+  year={2021},
+  publisher={Elsevier},
+  doi = {10.1016/j.trc.2021.103412}
+}"
