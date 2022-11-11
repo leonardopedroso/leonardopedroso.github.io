@@ -5,6 +5,7 @@
   line-height: 130%;
   font-size: $type-size-4;
   text-decoration: none;
+  width: 100%;
 
   a {
     color: mix(#000, $gray, 40%);
@@ -12,11 +13,39 @@
 
   details {
     display: inline;
+    text-align: left;
+    margin-top: 0em;
+    padding-top: 0em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+    margin-left: 0.35em;
+    padding-left: 0.35em;
+
   }
 
   details summary {
+    font-size: $type-size-4;
     cursor: pointer;
+    text-align: left;
+    margin-top: 0em;
+    padding-top: 0em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+    margin-left: 0em;
+    padding-left: 0.35em;
+  }
+}
+
+
+.pub-details{
+
+  text-align: left;
+
+  a {
+    color: #52adc8;
+    text-align: left;
   }
 
+  p{}
 
 }

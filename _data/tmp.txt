@@ -1,9 +1,7 @@
 
 
 
-  summary::-webkit-details-marker {
-  display:none;
-  }
+  
 
 ######
 "@article{pedroso2021discretecontrol,
