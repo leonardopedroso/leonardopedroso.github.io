@@ -6,8 +6,9 @@
     <a style="text-decoration: none;" target= "blank" href="{{item.url}}"> {{ item.citation }} </a>
     <div class="pub-details">
     <a style="text-align:left" href="{{item.pdf}}" target= "blank">[PDF]</a>
+    <a style="text-align:left" href="{{item.url}}" target= "blank">[HTML]</a>
     <details style="text-align:left"> <summary>Abstract</summary><p style="text-align: justify;">{{item.abstract}}</p></details>
-    <details> <summary>BibTeX</summary><p style="text-align: justify;">{{item.bibtex}}</p></details>
+    <details> <summary>BibTeX</summary><p style="text-align: left; font-family:'Courier';">{{item.bibtex}}</p></details>
     </div>
     <br>
     {% assign publication_list_count = publication_list_count | plus:-1 %}

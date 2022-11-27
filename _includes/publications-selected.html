@@ -1,0 +1,22 @@
+<h1>Selected Publications</h1>
+<div class="publications-selected">
+  {% assign publication_list_count = site.data.publications-selected.size %}
+  {% for item in site.data.publications-selected %}
+  <div class="container">
+    <div class="publication-selected-preview">
+          <img src="/images/publications-selected/{{item.img}}" alt="Preview">
+    </div>
+    <div class="pub-details-selected">
+        <p><a style="text-decoration: none; color: #4a4e52; line-height: 160%;" target= "blank" href="{{item.url}}"> {{ item.title }}</a></p>
+        <a style="text-decoration: none; color: #4a4e52; line-height: 160%;" href="{{item.url}}" >{{ item.authors }}</a><br>
+        <a style="text-decoration: none; color: #4a4e52; line-height: 160%;" href="{{item.url}}" >{{ item.journal }}</a><br>
+        <a style="text-align:left; line-height: 160%; color: color: #52adc8;" href="{{item.pdf}}" target= "blank">[PDF]</a>
+        <a style="text-align:left; line-height: 160%; color:color: #52adc8;" href="{{item.url}}" target= "blank">[HTML]</a>
+        <details style="text-align:left"> <summary>Abstract</summary><p style="text-align: justify;">{{item.abstract}}</p></details>
+        <details> <summary>BibTeX</summary><p style="text-align: left; font-family:'Courier';">{{item.bibtex}}</p></details>
+      </div>
+
+    </div>
+  </div><br>
+  {% assign publication_list_count = publication_list_count | plus:-1 %}
+  {% endfor %}

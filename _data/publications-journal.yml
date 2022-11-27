@@ -1,41 +1,51 @@
-- citation: "L. Pedroso and P. Batista. Reproducible low-cost flexible quadruple-tank process experimental setup for control educators, practitioners, and researchers. Journal of Process Control, 118:82– 94, 2022. doi: 10.1016/j.jprocont.2022.08.010."
+- citation: "L. Pedroso and P. Batista. <b>Reproducible low-cost flexible quadruple-tank process experimental setup for control educators, practitioners, and researchers</b>. Journal of Process Control, 118:82– 94, 2022. doi: 10.1016/j.jprocont.2022.08.010."
   url: "https://www.sciencedirect.com/science/article/pii/S0959152422001524"
   pdf: "j"
   abstract: "The major hurdle in accessing laboratory experimentation is the cost of acquiring experimental scientific equipment, which is unbearable for many institutions. This paper aims to provide the community of control educators, practitioners, and researchers with an open-source low-cost experimental setup and dedicated interface, which is flexible and very easily reproducible. The proposed apparatus is a setup of four interconnected tanks. The setup is representative of real-life industrial processes and it can be adjusted to allow for several configurations for flexibility. A user-friendly dedicated MATLAB/Simulink interface with a personal computer is developed. It supports a seamless shift between a numeric simulation of the quadruple-tank process dynamics and the interface with the physical experimental plant. The CAD models, technical drawings, wiring schematics, PCB design, interface, assembly tutorials, and several examples are provided in an open-source repository. The parts are inexpensive, readily obtained, and fast to assemble. Each setup costs under 650€ and takes roughly 4 h to assemble. In this paper, several application examples are presented, not only for educational purposes, but also for the validation of a state-of-the-art decentralized control method."
-  bibtex: "@article{LPedrosoPBatista2022,\n
-    \ttitle = {Reproducible low-cost flexible quadruple-tank process experimental setup for control educators, practitioners, and researchers},\n
-    \tauthor = {Leonardo Pedroso and Pedro Batista},\n
-    \tjournal = {Journal of Process Control},\n
-    \tvolume = {118},\n
-    \tpages = {82-94},\n
-    \tyear = {2022},\n
-    \tdoi = {10.1016/j.jprocont.2022.08.010}\n}"
+  bibtex: "@article{LPedrosoPBatista2022,<br>
+  title = {Reproducible low-cost flexible quadruple-tank process experimental setup for control educators, practitioners, and researchers},<br>
+  author = {Leonardo Pedroso and Pedro Batista},<br>
+  journal = {Journal of Process Control},<br>
+  volume = {118},<br>
+  pages = {82-94},<br>
+  year = {2022},<br>
+  doi = {10.1016/j.jprocont.2022.08.010}<br>}"
 
+- citation: "L. Pedroso and P. Batista. <b>Reproducible low-cost flexible quadruple-tank process experimental setup for control educators, practitioners, and researchers</b>. Journal of Process Control, 118:82– 94, 2022. doi: 10.1016/j.jprocont.2022.08.010."
+  url: "https://www.sciencedirect.com/science/article/pii/S0959152422001524"
+  pdf: "j"
+  abstract: "The major hurdle in accessing laboratory experimentation is the cost of acquiring experimental scientific equipment, which is unbearable for many institutions. This paper aims to provide the community of control educators, practitioners, and researchers with an open-source low-cost experimental setup and dedicated interface, which is flexible and very easily reproducible. The proposed apparatus is a setup of four interconnected tanks. The setup is representative of real-life industrial processes and it can be adjusted to allow for several configurations for flexibility. A user-friendly dedicated MATLAB/Simulink interface with a personal computer is developed. It supports a seamless shift between a numeric simulation of the quadruple-tank process dynamics and the interface with the physical experimental plant. The CAD models, technical drawings, wiring schematics, PCB design, interface, assembly tutorials, and several examples are provided in an open-source repository. The parts are inexpensive, readily obtained, and fast to assemble. Each setup costs under 650€ and takes roughly 4 h to assemble. In this paper, several application examples are presented, not only for educational purposes, but also for the validation of a state-of-the-art decentralized control method."
+  bibtex: "@article{LPedrosoPBatista2022,<br>
+  title = {Reproducible low-cost flexible quadruple-tank process experimental setup for control educators, practitioners, and researchers},<br>
+  author = {Leonardo Pedroso and Pedro Batista},<br>
+  journal = {Journal of Process Control},<br>
+  volume = {118},<br>
+  pages = {82-94},<br>
+  year = {2022},<br>
+  doi = {10.1016/j.jprocont.2022.08.010}<br>}"
 
-- citation: bla1
-  abstract:
-  url: https://www.sciencedirect.com/science/article/pii/S0959152422001524
-  pdf: f
-  bibtex: articleLPedrosoPBatista202
+- citation: "L. Pedroso and P. Batista. <b>Reproducible low-cost flexible quadruple-tank process experimental setup for control educators, practitioners, and researchers</b>. Journal of Process Control, 118:82– 94, 2022. doi: 10.1016/j.jprocont.2022.08.010."
+  url: "https://www.sciencedirect.com/science/article/pii/S0959152422001524"
+  pdf: "j"
+  abstract: "The major hurdle in accessing laboratory experimentation is the cost of acquiring experimental scientific equipment, which is unbearable for many institutions. This paper aims to provide the community of control educators, practitioners, and researchers with an open-source low-cost experimental setup and dedicated interface, which is flexible and very easily reproducible. The proposed apparatus is a setup of four interconnected tanks. The setup is representative of real-life industrial processes and it can be adjusted to allow for several configurations for flexibility. A user-friendly dedicated MATLAB/Simulink interface with a personal computer is developed. It supports a seamless shift between a numeric simulation of the quadruple-tank process dynamics and the interface with the physical experimental plant. The CAD models, technical drawings, wiring schematics, PCB design, interface, assembly tutorials, and several examples are provided in an open-source repository. The parts are inexpensive, readily obtained, and fast to assemble. Each setup costs under 650€ and takes roughly 4 h to assemble. In this paper, several application examples are presented, not only for educational purposes, but also for the validation of a state-of-the-art decentralized control method."
+  bibtex: "@article{LPedrosoPBatista2022,<br>
+  title = {Reproducible low-cost flexible quadruple-tank process experimental setup for control educators, practitioners, and researchers},<br>
+  author = {Leonardo Pedroso and Pedro Batista},<br>
+  journal = {Journal of Process Control},<br>
+  volume = {118},<br>
+  pages = {82-94},<br>
+  year = {2022},<br>
+  doi = {10.1016/j.jprocont.2022.08.010}<br>}"
 
-
-- citation: bla2
-  abstract: The major
-  url: https://www.sciencedirect.com/science/article/pii/S0959152422001524
-  pdf: f
-  bibtex: articleLPedrosoPBatista202
-
-
-- citation: bla3
-  abstract: The major
-  url: https://www.sciencedirect.com/science/article/pii/S0959152422001524
-  pdf: f
-  bibtex: articleLPedrosoPBatista202
-
-
-
-- citation: bla4
-  abstract: The major
-  url: https://www.sciencedirect.com/science/article/pii/S0959152422001524
-  pdf: f
-  bibtex: articleLPedrosoPBatista202
+- citation: "L. Pedroso and P. Batista. <b>Reproducible low-cost flexible quadruple-tank process experimental setup for control educators, practitioners, and researchers</b>. Journal of Process Control, 118:82– 94, 2022. doi: 10.1016/j.jprocont.2022.08.010."
+  url: "https://www.sciencedirect.com/science/article/pii/S0959152422001524"
+  pdf: "j"
+  abstract: "The major hurdle in accessing laboratory experimentation is the cost of acquiring experimental scientific equipment, which is unbearable for many institutions. This paper aims to provide the community of control educators, practitioners, and researchers with an open-source low-cost experimental setup and dedicated interface, which is flexible and very easily reproducible. The proposed apparatus is a setup of four interconnected tanks. The setup is representative of real-life industrial processes and it can be adjusted to allow for several configurations for flexibility. A user-friendly dedicated MATLAB/Simulink interface with a personal computer is developed. It supports a seamless shift between a numeric simulation of the quadruple-tank process dynamics and the interface with the physical experimental plant. The CAD models, technical drawings, wiring schematics, PCB design, interface, assembly tutorials, and several examples are provided in an open-source repository. The parts are inexpensive, readily obtained, and fast to assemble. Each setup costs under 650€ and takes roughly 4 h to assemble. In this paper, several application examples are presented, not only for educational purposes, but also for the validation of a state-of-the-art decentralized control method."
+  bibtex: "@article{LPedrosoPBatista2022,<br>
+  title = {Reproducible low-cost flexible quadruple-tank process experimental setup for control educators, practitioners, and researchers},<br>
+  author = {Leonardo Pedroso and Pedro Batista},<br>
+  journal = {Journal of Process Control},<br>
+  volume = {118},<br>
+  pages = {82-94},<br>
+  year = {2022},<br>
+  doi = {10.1016/j.jprocont.2022.08.010}<br>}"

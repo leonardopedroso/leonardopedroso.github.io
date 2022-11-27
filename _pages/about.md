@@ -21,11 +21,12 @@ Featured
 ======
 Lorem ipsum
 
-***
 
-Selected publications
-======
-Lorem ipsum
+
+{% if site.data.publications-selected %}
+***
+  {% include publications-selected.html %}
+{% endif %}
 
 ***
 
