@@ -1,42 +1,6 @@
 
-.publications{
 
-  text-align: left;
-  line-height: 130%;
-  font-size: $type-size-4;
-  text-decoration: none;
-
-  a {
-    color: mix(#000, $gray, 40%);
-  }
-
-  details {
-    display: inline;
-    text-align: left;
-    margin-top: 0em;
-    padding-top: 0em;
-    margin-bottom: 0em;
-    padding-bottom: 0em;
-    margin-left: 0.35em;
-    padding-left: 0.35em;
-
-  }
-
-  details summary {
-    font-size: $type-size-3;
-    cursor: pointer;
-    text-align: left;
-    margin-top: 0em;
-    padding-top: 0em;
-    margin-bottom: 0em;
-    padding-bottom: 0em;
-    margin-left: 0em;
-    padding-left: 0.35em;
-  }
-
-}
-
-.publications-selected{
+.software{
 
 
 
@@ -62,8 +26,9 @@ font-size: $type-size-3;
 
 .container p{
   text-align: justify;
-  margin-bottom: 3px;
-  font-size: $type-size-2;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: $type-size-3;
 
 }
 
@@ -104,22 +69,13 @@ font-size: $type-size-3;
 }
 
 
-.pub-details{
 
-  vertical-align: middle;
-
-  a {
-    color: #52adc8;
-    text-align: left;
-  }
-}
-
-.pub-details-selected{
+.software-desc{
 
 
 }
 
-.publication-selected-preview {
+.software-preview {
   display: table-cell;
   vertical-align: top;
   width: 36px;
