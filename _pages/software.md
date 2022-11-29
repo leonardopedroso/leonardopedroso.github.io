@@ -3,6 +3,7 @@ permalink: /software/
 author_profile: true
 ---
 
+{% include if-empty-message list=site.data.software %}
 {% include software.html %}
 
 ***
