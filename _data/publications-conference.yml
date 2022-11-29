@@ -1,3 +1,19 @@
+# 'International Conference Papers' list in publications page
+# If all fields are empty, this section is not displayed
+
+# Mandatory:
+# - citation (recommended: title between <b> </b> tags)
+# - url (to online publisher page, not doi)
+
+# Optional:
+# - pdf
+# - abstract
+# - bibtex (with line brek('<br>') tags)
+# - github
+# - video
+
+
+
 - citation: "L. Pedroso and P. Batista. Conference"
   url: "https://www.sciencedirect.com/science/article/pii/S0959152422001524"
   pdf: "j"

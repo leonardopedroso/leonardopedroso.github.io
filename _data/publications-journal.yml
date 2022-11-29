@@ -1,3 +1,18 @@
+# 'International Journal Papers' list in publications page
+# If all fields are empty, this section is not displayed
+
+# Mandatory:
+# - citation (recommended: title between <b> </b> tags)
+# - url (to online publisher page, not doi)
+
+# Optional:
+# - pdf
+# - abstract
+# - bibtex (with line brek('<br>') tags)
+# - github
+# - video
+
+
 - citation: "L. Pedroso and P. Batista. <b>Reproducible low-cost flexible quadruple-tank process experimental setup for control educators, practitioners, and researchers</b>. Journal of Process Control, 118:82– 94, 2022. doi: 10.1016/j.jprocont.2022.08.010."
   url: "https://www.sciencedirect.com/science/article/pii/S0959152422001524"
   pdf: "j"
