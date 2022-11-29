@@ -1,10 +1,62 @@
+# List in Software page
+# Mandatory:
+# - title
+# - authors
+# - year
+# - description
+# - url (main reference: github repo, external site, paper, etc...)
+
+# Optional:
+# - img
+# - license ('_' -> ' '; '--' -> '-')
+# - license_url (must be provided if license is provided)
+# - language
+# - github
+# - video
+
 - title: Quadruple-Tank Setup
   authors: Leonardo Pedroso and Pedro Batista
   year: 2022
   description: "This repository provides the community of control educators, practitioners, and researchers with an open-source low-cost quadruple-Tank Process experimental setup and dedicated interface, which is flexible and very easily reproducible."
-  url: "https://github.com/decenter2021/quadruple-tank-setup"
+  url: https://github.com/decenter2021/quadruple-tank-setup
   img: DDELQR.png
   license: CC_BY--NC_4.0
   license_url: https://creativecommons.org/licenses/by-nc/4.0/
   language: MATLAB & C++
+  github: decenter2021/quadruple-tank-setup
+  video: https://www.youtube.com/watch?v=-mkMukfFTuA&list=PLj6JXRV4qcgboMBOonhQY3f7nb1WQ0N1v
+
+- title: Quadruple-Tank Setup
+  authors: Leonardo Pedroso and Pedro Batista
+  year: 2022
+  description: "This repository provides the community of control educators, practitioners, and researchers with an open-source low-cost quadruple-Tank Process experimental setup and dedicated interface, which is flexible and very easily reproducible."
+  url: https://github.com/decenter2021/quadruple-tank-setup
+  license: CC_BY--NC_4.0
+  license_url: https://creativecommons.org/licenses/by-nc/4.0/
+  language: MATLAB & C++
+  github: decenter2021/quadruple-tank-setup
+  video: https://www.youtube.com/watch?v=-mkMukfFTuA&list=PLj6JXRV4qcgboMBOonhQY3f7nb1WQ0N1v
+
+- title: Quadruple-Tank Setup
+  authors: Leonardo Pedroso and Pedro Batista
+  year: 2022
+  description: "This repository provides the community of control educators, practitioners, and researchers with an open-source low-cost quadruple-Tank Process experimental setup and dedicated interface, which is flexible and very easily reproducible."
+  url: https://github.com/decenter2021/quadruple-tank-setup
+  img: DDELQR.png
+  license: CC_BY--NC_4.0
+  license_url: https://creativecommons.org/licenses/by-nc/4.0/
+  language: MATLAB & C++
+  github: decenter2021/quadruple-tank-setup
+  video: https://www.youtube.com/watch?v=-mkMukfFTuA&list=PLj6JXRV4qcgboMBOonhQY3f7nb1WQ0N1v
+
+- title: Quadruple-Tank Setup
+  authors: Leonardo Pedroso and Pedro Batista
+  year: 2022
+  description: "This repository provides the community of control educators, practitioners, and researchers with an open-source low-cost quadruple-Tank Process experimental setup and dedicated interface, which is flexible and very easily reproducible."
+  url: https://github.com/decenter2021/quadruple-tank-setup
+  img: DDELQR.png
+  license: CC_BY--NC_4.0
+  license_url: https://creativecommons.org/licenses/by-nc/4.0/
+  language: MATLAB & C++
+  github: decenter2021/quadruple-tank-setup
   video: https://www.youtube.com/watch?v=-mkMukfFTuA&list=PLj6JXRV4qcgboMBOonhQY3f7nb1WQ0N1v

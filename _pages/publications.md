@@ -1,6 +1,8 @@
 ---
 permalink: /publications/
 author_profile: true
+sidebar:
+  nav: "publications"
 ---
 
 {% if site.data.publications-selected %}

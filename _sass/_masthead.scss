@@ -16,6 +16,10 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
+    //
+
+
+    //
     padding: 0.4em 0.4em 0.4em;
     font-family: $sans-serif-narrow;
     font-size: $type-size-3;
@@ -23,11 +27,15 @@
 
     @include breakpoint($x-large) {
       max-width: $x-large;
+
+
     }
 
     nav {
       z-index: 10;
       background-color: $lighter-gray;
+
+
     }
 
     a {
@@ -46,6 +54,7 @@
     clear: both;
     list-style-type: none;
   }
+
 }
 
 .masthead__menu-item {
@@ -53,6 +62,9 @@
   list-style-type: none;
   white-space: nowrap;
   background-color: $lighter-gray;
+
+
+
 
   &--lg {
     padding-right: 8em;

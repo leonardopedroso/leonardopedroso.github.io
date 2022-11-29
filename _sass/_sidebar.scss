@@ -15,6 +15,7 @@
 
   @include breakpoint($large) {
     @include span(2.8 of 12);
+    float: left;
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -53,15 +54,16 @@
   margin-bottom: 1em;
 
   @include breakpoint($large) {
+    @include span(0.9 of 12 last);
     position: relative;
     float: right;
-    width: 0px;//$right-sidebar-width-narrow;
+    width: $right-sidebar-width-narrow;
     margin-left: span(0 of 12);
     z-index: 11;
   }
 
   @include breakpoint($x-large) {
-    width: $right-sidebar-width;
+    width: 0px; //$right-sidebar-width;
   }
 }
 
