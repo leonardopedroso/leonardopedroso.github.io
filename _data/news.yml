@@ -4,7 +4,7 @@
 # Set 'news_limit' in settings.yml to ajust the number of news to display
 
 # Mandatory:
-# - date
+# - date (YYYY-MM-DD)
 # - content
 
 # Optional:
