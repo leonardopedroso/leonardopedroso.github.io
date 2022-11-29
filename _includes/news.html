@@ -14,7 +14,7 @@
             <th>{{ item.date | date: "%b %-d, %Y" }}</th>
             <th></th>
             <td>
-                {{ item.content }}
+                {{item.content}}{% if item.read_more %} <a href="{{item.read_more}}" target="blank"> Read more...</a> {% endif %}
             </td>
           </tr>
         {%- endfor %}

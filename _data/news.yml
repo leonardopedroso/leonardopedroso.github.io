@@ -1,5 +1,18 @@
-- date: 2022-11-10 00:00:00-0000
-  content: Sample news 1
+# 'News' in homepage
+# If there are no entries, this section is not displayed
 
-- date: 2022-10-09 00:00:00-0000
+# Set 'news_limit' in settings.yml to ajust the number of news to display
+
+# Mandatory:
+# - date
+# - content
+
+# Optional:
+# - read_more (url to page or external link)
+
+- date: 2022-11-29
+  content: Xmas on the way 🎄
+
+- date: 2022-10-09
   content: Sample news 2
+  read_more: google.com

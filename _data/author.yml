@@ -1,5 +1,6 @@
 # Fill details for left sidebar with bio
 # Blank fields are ignored
+
 author:
   name          : Leonardo Pedroso
   avatar        : profile.jpg
@@ -10,6 +11,5 @@ author:
   googlescholar : W7_Gq-0AAAAJ
   linkedin      : leopedroso
   github        : leonardopedroso
-  googlescholar : W7_Gq-0AAAAJ"
   orcid         : 0000-0002-1508-496X
   about-me      : I received the BSc in Aerospace Engineering in 2020, from Instituto Superior Técnico (IST), University of Lisbon (Ulisboa), Portugal, and I will receive the MSc in 2022. I received four academic excellence diplomas, endowed by IST, and four outstanding academic performance awards, endowed by ULisboa. I was also awarded an honorable mention in the 48th International Physics Olympiad. Since 2019 I am a member of the research team of the DECENTER project, funded by the Portuguese National Science Foundation. My current research interest is <b>decentralized control</b> and <b>estimation</b>  over <b>very large-scale</b> networks.

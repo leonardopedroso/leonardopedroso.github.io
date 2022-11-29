@@ -1,4 +1,6 @@
 # List in Software page
+# If there are no entries, this section is not displayed
+
 # Mandatory:
 # - title
 # - authors

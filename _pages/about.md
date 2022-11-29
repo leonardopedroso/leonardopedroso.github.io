@@ -9,26 +9,12 @@ redirect_from:
 <h1>About me</h1>
 {{ site.data.author.author.about-me}}
 
-***
-
 {% if site.data.news %}
+***
   {% include news.html %}
 {% endif %}
-
-***
-
-Featured
-======
-Lorem ipsum
-
-
 
 {% if site.data.publications-selected %}
 ***
   {% include publications-selected.html %}
 {% endif %}
-
-***
-
-Awards
-======

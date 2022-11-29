@@ -1,5 +1,5 @@
 # 'Book Chapters' list in publications page
-# If all fields are empty, this section is not displayed
+# If there are no entries, this section is not displayed
 
 # Mandatory:
 # - citation (recommended: title between <b> </b> tags)
