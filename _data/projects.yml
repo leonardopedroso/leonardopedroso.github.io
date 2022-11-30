@@ -1,0 +1,50 @@
+# List in Projects page
+# If there are no entries, this section is not displayed
+
+# Mandatory:
+# - title
+# - description (single paragraph, use <b>,<i>,... tags)
+# - duration (Month YYYY - Month YYYY)
+# - url
+
+# Optional:
+# - description_long (use <p> tags to distinguish between paargraphs)
+# - img (vertical banner - filename of image in /images/projects)
+# - code
+# - remarks
+# - partners
+# - role
+# - youtube
+# - github
+
+# Illustrative example with all the fields below
+#- title: DECENTER
+#  description: "This project aims to develop novel algorithms for the design of decentralized controllers and observers for large-scale complex systems that provide a significant improvement to the current state-of-the-art, both in terms of achieved performance and computational burden. It departs from previous approaches in that new iterative algorithms will be devised to approximate the optimal solution. This will be accomplished by first formulating and solving optimization problems that admit closed-form, computationally efficient solutions. Afterwards, novel divide-and-conquer algorithms will be derived by iterating through simpler problems, both forward and backward in time, to improve the solution. Linear time invariant systems will first be considered but the algorithms will also be seamlessly adapted to periodic linear systems and linear time-varying systems. The extension to nonlinear systems will be considered next, resorting to the linearization around operating equilibrium points."
+#  duration: September 2018 - August 2022
+#  url: https://decenterproject.weebly.com
+#  description_long: "<p>Large-scale systems are ubiquitous in many pressing technologies, thus motivating important challenges in automatic control theory. Centralized control solutions do not offer robustness to failure of a central node, which is essential in critical applications, and they are seldom adequate due to computational and communication limitations. Hence, decentralized control paradigms must be pursued to successfully tackle the challenges involving these complex systems. Although this has been a very hot topic of research for the past decades, there still exists a large gap between the current needs and the available tools.</p><p>To illustrate and exploit the expected advances in decentralized control two relevant fields will be studied: i) swarm robotics; and ii) traffic network management. It is now accepted that robots will soon play central roles in domains as diverse as societal, commercial, and industrial. More importantly, a trend shift is occurring to the use of robotic swarms, calling for novel navigation systems developed within distributed frameworks. The decentralized estimation algorithms developed in this project will be used to design cooperative navigation systems for large formations of autonomous vehicles considering communication, sensing, and processing limitations of each agent, as well as those of the network. The second application concerns the design of intelligent traffic network control systems that minimize time spent in queues, congestion, and pollution, thus improving driver satisfaction and safety. Sensing abilities are provided by traffic sensors that give the traffic volume, road occupancy, and average speed of vehicles, while actuation is possible through the use of traffic lights, variable speed limits, ramp meters, and variable message signs, in a fully decentralized, complex, and dynamic setting. Both contributions address key H2020 societal issues and are aligned with the Portuguese and Lisbon Regional RIS3.</p>"
+#  img: decenter.jpg
+#  code: LISBOA-01-0145-FEDER-029605
+#  partners:
+#    - name: Universidade da Lousã, Lousã, Coimbra, Portugal
+#    - name: Universidade da Caranguejeira
+#  roles:
+#    - name: Member of team 1
+#  remarks:
+#    - title: "Final Evaluation by the European Commission: <b>Excellent</b>"
+#      description: The project has fully achieved its objectives and technical goals and has even exceeded expectations.
+#  github: https://github.com/decenter2021
+#  youtube: https://www.youtube.com/@decenterproject
+
+- title: DECENTER
+  description: "This project aims to develop novel algorithms for the design of decentralized controllers and observers for large-scale complex systems that provide a significant improvement to the current state-of-the-art, both in terms of achieved performance and computational burden. It departs from previous approaches in that new iterative algorithms will be devised to approximate the optimal solution. This will be accomplished by first formulating and solving optimization problems that admit closed-form, computationally efficient solutions. Afterwards, novel divide-and-conquer algorithms will be derived by iterating through simpler problems, both forward and backward in time, to improve the solution. Linear time invariant systems will first be considered but the algorithms will also be seamlessly adapted to periodic linear systems and linear time-varying systems. The extension to nonlinear systems will be considered next, resorting to the linearization around operating equilibrium points."
+  duration: September 2018 - August 2022
+  url: https://decenterproject.weebly.com
+  description_long: "<p>Large-scale systems are ubiquitous in many pressing technologies, thus motivating important challenges in automatic control theory. Centralized control solutions do not offer robustness to failure of a central node, which is essential in critical applications, and they are seldom adequate due to computational and communication limitations. Hence, decentralized control paradigms must be pursued to successfully tackle the challenges involving these complex systems. Although this has been a very hot topic of research for the past decades, there still exists a large gap between the current needs and the available tools.</p><p>To illustrate and exploit the expected advances in decentralized control two relevant fields will be studied: i) swarm robotics; and ii) traffic network management. It is now accepted that robots will soon play central roles in domains as diverse as societal, commercial, and industrial. More importantly, a trend shift is occurring to the use of robotic swarms, calling for novel navigation systems developed within distributed frameworks. The decentralized estimation algorithms developed in this project will be used to design cooperative navigation systems for large formations of autonomous vehicles considering communication, sensing, and processing limitations of each agent, as well as those of the network. The second application concerns the design of intelligent traffic network control systems that minimize time spent in queues, congestion, and pollution, thus improving driver satisfaction and safety. Sensing abilities are provided by traffic sensors that give the traffic volume, road occupancy, and average speed of vehicles, while actuation is possible through the use of traffic lights, variable speed limits, ramp meters, and variable message signs, in a fully decentralized, complex, and dynamic setting. Both contributions address key H2020 societal issues and are aligned with the Portuguese and Lisbon Regional RIS3.</p>"
+  img: decenter.jpg
+  code: LISBOA-01-0145-FEDER-029605
+  roles:
+    - name: "<b>Task 1 (member)</b>: 'Decentralized Estimation and Control of Large Scale Systems'"
+    - name: "<b>Task 5 (leader)</b>: 'Decentralized Traffic Network Control'"
+  github: https://github.com/decenter2021
+  youtube: https://www.youtube.com/@decenterproject

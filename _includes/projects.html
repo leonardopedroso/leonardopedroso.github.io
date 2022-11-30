@@ -1,0 +1,84 @@
+
+
+<div class="project">
+  {% for item in site.data.projects %}
+  {% if item.img %}
+  <div class="container">
+    <div class="project-preview">
+          <img src="/images/projects/{{item.img}}" alt="Preview">
+    </div>
+    <div class="project-desc">
+        <a target= "blank" href="{{item.url}}"> <h2>{{ item.title }}</h2></a>
+
+        {%comment%}{% if item.code %}<a style="text-decoration:none;color: #4a4e52;font-size:0.85em;vertical-align:top;">[{{item.code}}]</a>{% endif %}{%endcomment%}
+        {% if item.code %}<p style="font-size:0.85em;">[{{item.code}}]</p>{% endif %}
+        <p>{{item.duration}}</p>
+
+        <h3>Brief description</h3>
+        {% if item.description_long %}
+        <p>{{item.description}}<details><summary>Read More...</summary><p>{{item.description_long}}</p></details></p>
+        {% else %}
+        <p>{{item.description}}</p>
+        {% endif %}
+
+        {% if item.partners %}
+        <h3>Partners</h3>
+        <ul style="list-style-type:none;margin:0px">
+        {% for partner in item.partners %}
+            <li>{{partner.name}}</li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if item.roles %}
+          {% if item.roles.size == 1 %}
+            {% for role in item.roles %}
+              <p style="margin-top:0.8em;margin-bottom:0.8em;"><b>Role:</b> {{role.name}}</p>
+            {% endfor %}
+          {% else %}
+            <h3>Roles</h3>
+            <ul style="list-style-type:none;margin:0px">
+            {% for role in item.roles %}
+              <li>{{role.name}}</li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+        {% endif %}
+
+        {% for remark in item.remarks %}
+          <h3>{{remark.title}}</h3>
+          <p>{{remark.description}}</p>
+        {% endfor %}
+
+        {% if item.github %}
+          <a target="blank" href="{{item.github}}" ><img style="margin-top:0.8em;" alt="GitHub" src="https://badges.aleen42.com/src/github.svg"></a>
+        {% endif %}
+        {% if item.youtube %}
+          <a target="blank" href="{{item.youtube}}"><img style="margin-top:0.8em;" alt="YouTube" src="https://badges.aleen42.com/src/youtube.svg"></a>
+        {% endif %}
+
+      </div>
+    </div>
+  {% else %}
+  <div class="project-desc">
+      <a target= "blank" href="{{item.url}}"> <b>{{ item.title }}</b></a><br>
+      {{ item.authors }} ({{item.year}})
+      <p style="text-decoration: none; color: #4a4e52; line-height: 130%;" > {{ item.description}}</p>
+      {% if item.license %}
+        <a target="blank" href="{{item.license_url}}"><img src="https://img.shields.io/badge/License-{{item.license}}-blue.svg" alt="License: {{item.license}}"></a>
+      {% endif %}
+      {% if item.language %}
+        <img alt="{{item.language}}" src="https://img.shields.io/badge/Language-{{item.language}}-blueviolet">
+      {% endif %}
+      {% if item.github %}
+        <a target="blank" href="{{item.github}}"><img alt="GitHub" src="https://badges.aleen42.com/src/github.svg"></a>
+      {% endif %}
+      {% if item.video %}
+        <a target="blank" href="{{item.video}}"><img alt="YouTube" src="https://badges.aleen42.com/src/youtube.svg"></a>
+      {% endif %}
+    </div>
+  {% endif %}
+  <br>
+  {% endfor %}
+
+</div>

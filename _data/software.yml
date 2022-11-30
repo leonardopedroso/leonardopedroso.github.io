@@ -9,7 +9,7 @@
 # - url (main reference: github repo, external site, paper, etc...)
 
 # Optional:
-# - img
+# - img (filename of image in /images/software)
 # - license ('_' -> ' '; '--' -> '-')
 # - license_url (must be provided if license is provided)
 # - language
