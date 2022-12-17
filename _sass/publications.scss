@@ -1,7 +1,6 @@
 
 .publications{
-
-  text-align: left;
+  text-align: justify;
   line-height: 130%;
   font-size: $type-size-4;
   text-decoration: none;
@@ -32,6 +31,11 @@
     padding-bottom: 0em;
     margin-left: 0em;
     padding-left: 0.35em;
+  }
+
+  .pub-details{
+      text-align: left;
+
   }
 
 }
