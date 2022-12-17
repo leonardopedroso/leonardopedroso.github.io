@@ -14,15 +14,33 @@
 
 
 
-- citation: "L. Pedroso and P. Batista. Conference"
-  url: "https://www.sciencedirect.com/science/article/pii/S0959152422001524"
-  pdf: "j"
-  abstract: "The major hurdle in accessing laboratory experimentation is the cost of acquiring experimental scientific equipment, which is unbearable for many institutions. This paper aims to provide the community of control educators, practitioners, and researchers with an open-source low-cost experimental setup and dedicated interface, which is flexible and very easily reproducible. The proposed apparatus is a setup of four interconnected tanks. The setup is representative of real-life industrial processes and it can be adjusted to allow for several configurations for flexibility. A user-friendly dedicated MATLAB/Simulink interface with a personal computer is developed. It supports a seamless shift between a numeric simulation of the quadruple-tank process dynamics and the interface with the physical experimental plant. The CAD models, technical drawings, wiring schematics, PCB design, interface, assembly tutorials, and several examples are provided in an open-source repository. The parts are inexpensive, readily obtained, and fast to assemble. Each setup costs under 650€ and takes roughly 4 h to assemble. In this paper, several application examples are presented, not only for educational purposes, but also for the validation of a state-of-the-art decentralized control method."
-  bibtex: "@article{LPedrosoPBatista2022,<br>
-  title = {Reproducible low-cost flexible quadruple-tank process experimental setup for control educators, practitioners, and researchers},<br>
-  author = {Leonardo Pedroso and Pedro Batista},<br>
-  journal = {Journal of Process Control},<br>
-  volume = {118},<br>
-  pages = {82-94},<br>
-  year = {2022},<br>
-  doi = {10.1016/j.jprocont.2022.08.010}<br>}"
+- citation: "L. Pedroso, P. Batista, M. Papageorgiou, and E. Kosmatopoulos, <b>SAFFRON: Store-And-Forward model toolbox For urban ROad Network signal control in MATLAB’</b>, in <i>2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)</i>, 2022, pp. 3698– 3703. doi: 10.1109/ITSC55140.2022.9922508."
+  url: https://ieeexplore.ieee.org/abstract/document/9922508
+  pdf: http://web.tecnico.ulisboa.pt/ist189691/publications/2022_11_pedroso_saffron_itsc_goa.pdf
+  abstract: "The SAFFRON toolbox is introduced to synthesize, analyze, and simulate store-and-forward based strategies for the signal control problem in congested urban road networks in MATLAB. It features: i) well-documented tools to manipulate and simulate store-and-forward macroscopic traffic network models; ii) the parameters of the model of the urban road network of the city center of Chania, Greece; and iii) the implementation of state-of-the-art signal control strategies."
+  bibtex: "@inproceedings{pedroso2022saffron,<br>
+  author={Pedroso, Leonardo and Batista, Pedro and Papageorgiou, Markos and Kosmatopoulos, Elias},<br>
+  booktitle={2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)},<br>
+  title={SAFFRON: Store-And-Forward model toolbox For urban ROad Network signal control in MATLAB},<br>
+  year={2022},<br>
+  volume={},<br>
+  number={},<br>
+  pages={3698-3703},<br>
+  doi={10.1109/ITSC55140.2022.9922508}<br>
+  }"
+  github: https://github.com/decenter2021/SAFFRON
+
+- citation: "A. Arco, I. Figueiras, L. Pedroso, J. V. A. dos Santos, and H. Lopes, <b>‘Application of spline interpolation to speckle shearography measurements for damage identification’</b>, in <i>Procedia Structural Integrity (3rd International Conference on Structural Integrity, ICSI 2019, 2-5 September 2019, Funchal, Madeira, Portugal)</i>, 2019, vol. 17, pp. 718–725. doi: 10.1016/j.prostr.2019.08.096."
+  url: https://www.sciencedirect.com/science/article/pii/S2452321619303026
+  pdf: http://web.tecnico.ulisboa.pt/ist189691/publications/2019_08_arco_application_icsi_goa.pdf
+  abstract: "This paper aims to explore a new technique for structural damage identification using cubic spline interpolation. The method is based on the interpolation of modal rotations measured with speckle shearography. In order to locate the damaged areas, we make use of the analytical derivative of the cubic spline function to compute the modal curvature, which is known to be very sensitive to damage. A comprehensive parametric study of the spatial sampling interval is carried out to find its influence on noise filtering. Furthermore, the identification quality dependency on the mode shape and respective noise is also examined. The results obtained with the proposed method show the consistency of the localizations. Additionally, the challenging tasks of identifying small and multiple damage are tackled, yielding a good performance."
+  bibtex: "@inproceedings{arco2019application,<br>
+  title = {Application of spline interpolation to speckle shearography measurements for damage identification},<br>
+  booktitle = {Procedia Structural Integrity},<br>
+  volume = {17},<br>
+  pages = {718-725},<br>
+  year = {2019},<br>
+  note = {3rd International Conference on Structural Integrity, ICSI 2019, 2-5 September 2019, Funchal, Madeira, Portugal},<br>
+  doi = {https://doi.org/10.1016/j.prostr.2019.08.096},<br>
+  author = {A. Arco and I. Figueiras and L. Pedroso and J.V. Araújo dos Santos and H. Lopes}<br>
+  }"
