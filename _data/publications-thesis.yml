@@ -12,14 +12,16 @@
 # - github
 # - video
 
-- citation: "L. Pedroso and P. Batista. MSc Thesis"
-  pdf: "j"
-  abstract: "The major hurdle in accessing laboratory experimentation is the cost of acquiring experimental scientific equipment, which is unbearable for many institutions. This paper aims to provide the community of control educators, practitioners, and researchers with an open-source low-cost experimental setup and dedicated interface, which is flexible and very easily reproducible. The proposed apparatus is a setup of four interconnected tanks. The setup is representative of real-life industrial processes and it can be adjusted to allow for several configurations for flexibility. A user-friendly dedicated MATLAB/Simulink interface with a personal computer is developed. It supports a seamless shift between a numeric simulation of the quadruple-tank process dynamics and the interface with the physical experimental plant. The CAD models, technical drawings, wiring schematics, PCB design, interface, assembly tutorials, and several examples are provided in an open-source repository. The parts are inexpensive, readily obtained, and fast to assemble. Each setup costs under 650€ and takes roughly 4 h to assemble. In this paper, several application examples are presented, not only for educational purposes, but also for the validation of a state-of-the-art decentralized control method."
-  bibtex: "@article{LPedrosoPBatista2022,<br>
-  title = {Reproducible low-cost flexible quadruple-tank process experimental setup for control educators, practitioners, and researchers},<br>
-  author = {Leonardo Pedroso and Pedro Batista},<br>
-  journal = {Journal of Process Control},<br>
-  volume = {118},<br>
-  pages = {82-94},<br>
+
+- citation: "L. Pedroso, <b>‘Distributed decentralized control for very large-scale systems with application to LEO satellite mega-constellations’</b>, Instituto Superior Técnico, University of Lisbon, 2022."
+  url: https://scholar.tecnico.ulisboa.pt/records/E40NDMJdlf46B_mgxo_6SDiAH6GJH_UeJaVk
+  pdf: https://scholar.tecnico.ulisboa.pt/api/records/E40NDMJdlf46B_mgxo_6SDiAH6GJH_UeJaVk/file/3788c41732f614debc1aba647e2b34d377d7e7ace008c110d11dd40ad3539146.pdf
+  abstract: "The advantages and tremendous potential of very large-scale complex networks of interconnected systems are indisputable in a myriad of engineering fields, not only as business opportunities but also as a natural change towards efficiency, reliability, and scalability. In particular, mega-constellations of satellites promise to revolutionize the future of communications and Earth observation and monitoring. Although efforts towards the deployment of these solutions are underway, decades-old tried and tested individual ground-based tracking telemetry and command technologies condemn these ventures to practical unfeasibility and economic unviability. The goal of this thesis follows from the self-evident void in the state-of-the-art, aiming to bring these endeavors to fruition. First, the distributed and decentralized control problem is formulated in a receding horizon control framework alongside the severe large-scale feasibility constraints. Second, a convex relaxation procedure is proposed to approximate the optimal solution of the regulator synthesis problem in a decentralized setting, which is validated resorting to a large-scale numeric simulation and experimental results. Moreover, a tracking solution is put forward. Third, a novel distributed and decentralized networked control solution is developed for the particular case of dynamically decoupled systems. The controller synthesis computations are distributed across the network leveraging the proposed convex relaxation, an approximation, and a scheduling procedure, to comply with the feasibility constraints on a very large-scale. Fourth, the potential of the proposed solution is successfully illustrated for the cooperative on-board orbit control of the Starlink mega-constellation. The shape-keeping task is formulated in a novel framework with emphasis on efficiency and fuel saving."
+  bibtex: "@mastersthesis{pedroso2022mscthesis,<br>
+  title = {Distributed decentralized control for very large-scale systems with application to LEO satellite mega-constellations},<br>
+  author = {Pedroso, Leonardo},<br>
   year = {2022},<br>
-  doi = {10.1016/j.jprocont.2022.08.010}<br>}"
+  school  = {Instituto Superior Técnico, University of Lisbon}<br>
+  }"
+  github: https://decenter2021.github.io/examples/DDRHCStarlink/
+  video: https://www.youtube.com/watch?v=psfW6-85lr0
