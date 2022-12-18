@@ -23,7 +23,7 @@
   year: 2021
   description: Decentralized and distributed control and estimation toolbox for MATLAB.
   url: https://decenter2021.github.io
-  img: decenter.jpg
+  img: decenter.webp
   license: MIT
   license_url: https://decenter2021.github.io/download/#license
   language: MATLAB
@@ -34,7 +34,7 @@
   year: 2022
   description: "Open-source low-cost quadruple-tank process experimental setup and dedicated interface."
   url: https://github.com/decenter2021/quadruple-tank-setup
-  img: quadruple.png
+  img: quadruple.webp
   license: CC_BY--NC_4.0
   license_url: https://creativecommons.org/licenses/by-nc/4.0/
   language: MATLAB & C++
@@ -47,7 +47,7 @@
   year: 2022
   description: Store-And-Forward model toolbox For urban ROad Network signal control in MATLAB.
   url: https://ieeexplore.ieee.org/abstract/document/9922508
-  img: saffron.png
+  img: saffron.webp
   pdf: http://web.tecnico.ulisboa.pt/ist189691/publications/2022_11_pedroso_saffron_itsc_goa.pdf
   license: MIT
   license_url: https://github.com/decenter2021/SAFFRON/blob/master/LICENSE
@@ -59,7 +59,7 @@
   year: 2022
   description: Convert osculating to/from mean orbital elements using spherical harmonics Earth gravity potential.
   url: https://github.com/decenter2021/osculating2mean
-  img: osculating2mean.png
+  img: osculating2mean.webp
   license: MIT
   license_url: https://github.com/decenter2021/osculating2mean/blob/master/LICENSE
   language: MATLAB
@@ -70,7 +70,7 @@
   year: 2022
   description: Thrust feedback of TUDAT application using MATLAB.
   url: https://github.com/decenter2021/tudat-matlab-thrust-feedback
-  img: tudat-matlab-thrust-feedback.png
+  img: tudat-matlab-thrust-feedback.webp
   license: MIT
   license_url: https://github.com/decenter2021/tudat-matlab-thrust-feedback/blob/master/LICENSE
   language: MATLAB & C++
