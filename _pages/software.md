@@ -5,8 +5,6 @@ permalink: /software/
 author_profile: true
 ---
 
-<meta name="description" content="Leonardo Pedroso's academic released software.">
-
 {% include if-empty-message list=site.data.software %}
 {% include software.html %}
 

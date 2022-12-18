@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-<meta name="description" content="Leonardo Pedroso's personal academic website.">
-
 <h1>👋 About me</h1>
 {{ site.data.author.author.about-me}}
 
