@@ -25,6 +25,9 @@
         {% if item.video %}
           <a target="blank" href="{{item.video}}"><img alt="YouTube" src="https://badges.aleen42.com/src/youtube.svg"></a>
         {% endif %}
+        {% if item.pdf %}
+        <a target="blank" href="{{item.pdf}}"><img alt="PDF" src="https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&color=f5231e"></a>
+        {% endif %}
       </div>
     </div>
   {% else %}
@@ -44,9 +47,12 @@
       {% if item.video %}
         <a target="blank" href="{{item.video}}"><img alt="YouTube" src="https://badges.aleen42.com/src/youtube.svg"></a>
       {% endif %}
+      {% if item.pdf %}
+      <a target="blank" href="{{item.pdf}}"><img alt="PDF" src="https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&color=f5231e"></a>
+      {% endif %}
     </div>
   {% endif %}
-  <br>
+
   {% endfor %}
 
 </div>

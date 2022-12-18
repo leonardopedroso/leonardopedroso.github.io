@@ -15,50 +15,63 @@
 # - language
 # - github
 # - video
+# - pdf
+
+
+- title: DECENTER Toolbox
+  authors: Leonardo Pedroso and Pedro Batista
+  year: 2021
+  description: Decentralized and distributed control and estimation toolbox for MATLAB.
+  url: https://decenter2021.github.io
+  img: decenter.jpg
+  license: MIT
+  license_url: https://decenter2021.github.io/download/#license
+  language: MATLAB
+  github: https://github.com/decenter2021/decenter
 
 - title: Quadruple-Tank Setup
   authors: Leonardo Pedroso and Pedro Batista
   year: 2022
-  description: "This repository provides the community of control educators, practitioners, and researchers with an open-source low-cost quadruple-Tank Process experimental setup and dedicated interface, which is flexible and very easily reproducible."
+  description: "Open-source low-cost quadruple-tank process experimental setup and dedicated interface."
   url: https://github.com/decenter2021/quadruple-tank-setup
-  img: DDELQR.png
+  img: quadruple.png
   license: CC_BY--NC_4.0
   license_url: https://creativecommons.org/licenses/by-nc/4.0/
   language: MATLAB & C++
   github: decenter2021/quadruple-tank-setup
   video: https://www.youtube.com/watch?v=-mkMukfFTuA&list=PLj6JXRV4qcgboMBOonhQY3f7nb1WQ0N1v
+  pdf: http://web.tecnico.ulisboa.pt/ist189691/publications/2022_09_pedroso_batista_reproducible_jpc_goa.pdf
 
-- title: Quadruple-Tank Setup
+- title: SAFFRON
+  authors: Leonardo Pedroso, Pedro Batista, Markos Papageorgiou and Elias Kosmatopoulos
+  year: 2022
+  description: Store-And-Forward model toolbox For urban ROad Network signal control in MATLAB.
+  url: https://ieeexplore.ieee.org/abstract/document/9922508
+  img: saffron.png
+  pdf: http://web.tecnico.ulisboa.pt/ist189691/publications/2022_11_pedroso_saffron_itsc_goa.pdf
+  license: MIT
+  license_url: https://github.com/decenter2021/SAFFRON/blob/master/LICENSE
+  language: MATLAB
+  github: https://github.com/decenter2021/SAFFRON
+
+- title: osculating2mean
+  authors: Leonardo Pedroso, Pedro Batista and Cheinway Hwang
+  year: 2022
+  description: Convert osculating to/from mean orbital elements using spherical harmonics Earth gravity potential.
+  url: https://github.com/decenter2021/osculating2mean
+  img: osculating2mean.png
+  license: MIT
+  license_url: https://github.com/decenter2021/osculating2mean/blob/master/LICENSE
+  language: MATLAB
+  github: https://github.com/decenter2021/osculating2mean
+
+- title: tudat-matlab-thrust-feedback
   authors: Leonardo Pedroso and Pedro Batista
   year: 2022
-  description: "This repository provides the community of control educators, practitioners, and researchers with an open-source low-cost quadruple-Tank Process experimental setup and dedicated interface, which is flexible and very easily reproducible."
-  url: https://github.com/decenter2021/quadruple-tank-setup
-  license: CC_BY--NC_4.0
-  license_url: https://creativecommons.org/licenses/by-nc/4.0/
+  description: Thrust feedback of TUDAT application using MATLAB.
+  url: https://github.com/decenter2021/tudat-matlab-thrust-feedback
+  img: tudat-matlab-thrust-feedback.png
+  license: MIT
+  license_url: https://github.com/decenter2021/tudat-matlab-thrust-feedback/blob/master/LICENSE
   language: MATLAB & C++
-  github: decenter2021/quadruple-tank-setup
-  video: https://www.youtube.com/watch?v=-mkMukfFTuA&list=PLj6JXRV4qcgboMBOonhQY3f7nb1WQ0N1v
-
-- title: Quadruple-Tank Setup
-  authors: Leonardo Pedroso and Pedro Batista
-  year: 2022
-  description: "This repository provides the community of control educators, practitioners, and researchers with an open-source low-cost quadruple-Tank Process experimental setup and dedicated interface, which is flexible and very easily reproducible."
-  url: https://github.com/decenter2021/quadruple-tank-setup
-  img: DDELQR.png
-  license: CC_BY--NC_4.0
-  license_url: https://creativecommons.org/licenses/by-nc/4.0/
-  language: MATLAB & C++
-  github: decenter2021/quadruple-tank-setup
-  video: https://www.youtube.com/watch?v=-mkMukfFTuA&list=PLj6JXRV4qcgboMBOonhQY3f7nb1WQ0N1v
-
-- title: Quadruple-Tank Setup
-  authors: Leonardo Pedroso and Pedro Batista
-  year: 2022
-  description: "This repository provides the community of control educators, practitioners, and researchers with an open-source low-cost quadruple-Tank Process experimental setup and dedicated interface, which is flexible and very easily reproducible."
-  url: https://github.com/decenter2021/quadruple-tank-setup
-  img: DDELQR.png
-  license: CC_BY--NC_4.0
-  license_url: https://creativecommons.org/licenses/by-nc/4.0/
-  language: MATLAB & C++
-  github: decenter2021/quadruple-tank-setup
-  video: https://www.youtube.com/watch?v=-mkMukfFTuA&list=PLj6JXRV4qcgboMBOonhQY3f7nb1WQ0N1v
+  github: https://github.com/decenter2021/tudat-matlab-thrust-feedback
