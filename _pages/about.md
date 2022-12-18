@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+<meta name="description" content="Put your description here.">
+
 <h1>👋 About me</h1>
 {{ site.data.author.author.about-me}}
 
