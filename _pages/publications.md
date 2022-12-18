@@ -7,6 +7,8 @@ sidebar:
   nav: "publications"
 ---
 
+<meta name="description" content="Leonardo Pedroso's academic publications.">
+
 {% if site.data.publications-selected %}
 # Selected Publications
   {% include publications-selected.html %}

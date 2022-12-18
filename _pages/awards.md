@@ -5,6 +5,7 @@ permalink: /awards/
 author_profile: true
 ---
 
+<meta name="description" content="Leonardo Pedroso's academic awards.">
 {% include if-empty-message list=site.data.awards %}
 
 {% if site.data.awards-selected %}
