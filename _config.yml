@@ -146,6 +146,7 @@ defaults:
       comments: true
       share: true
       related: true
+      analytics: true
   # _pages
   - scope:
       path: ""
@@ -154,6 +155,7 @@ defaults:
       layout: single
       author_profile: true
       sitemap: true
+      analytics: true
 
 # Sass/SCSS
 sass:
