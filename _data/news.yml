@@ -10,9 +10,9 @@
 # Optional:
 # - read_more (url to page or external link)
 
-- date: 2022-11-29
-  content: Xmas on the way 🎄
+- date: 2022-11-01
+  content: "I was awarded the Prof. JCF Award 2022 for <b>effort, creativity, and ingenuity in mathematics</b>."
+  read_more: https://math.tecnico.ulisboa.pt/teaching/ppjcf/?lang=en
 
-- date: 2022-10-09
-  content: Sample news 2
-  read_more: google.com
+- date: 2022-11-17
+  content: "I successfully defended my <b>MSc thesis</b> 🚀"

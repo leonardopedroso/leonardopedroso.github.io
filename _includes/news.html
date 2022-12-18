@@ -10,7 +10,8 @@
         {% endif %}
         {% for item in news limit: news_limit %}
           <tr>
-            <th>{{ item.date | date: "%b %-d, %Y" }}</th>
+            <!--<th>{{ item.date | date: "%b %-d, %Y" }}</th>-->
+            <th>{{ item.date | date: "%b %Y" }}</th>
             <th></th>
             <td>
                 {{item.content}}{% if item.read_more %} <a href="{{item.read_more}}" target="blank"> Read more...</a> {% endif %}
