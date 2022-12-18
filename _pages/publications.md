@@ -6,6 +6,7 @@ sidebar:
 ---
 
 {% if site.data.publications-selected %}
+# Selected Publications
   {% include publications-selected.html %}
 {% endif %}
 

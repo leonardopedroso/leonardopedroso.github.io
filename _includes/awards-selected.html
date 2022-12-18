@@ -1,0 +1,22 @@
+<div class="news">
+  {%- assign news_size = site.data.awards-selected | size -%}
+  <div class="table-responsive">
+      <table class="table">
+        {%- assign news = site.data.awards-selected -%}
+        {% if site.data.settings.news.news_limit %}
+          {% assign news_limit = site.data.settings.awards-selected.awards_sewlected_limit %}
+        {% else %}
+              {% assign news_limit = news_size %}
+        {% endif %}
+        {% for item in news limit: news_limit %}
+          <tr>
+            <th>{{ item.date | date: "%Y" }}</th>
+            <th></th>
+            <td>
+                {{item.title}}{% if item.read_more %} <a href="{{item.read_more}}" target="blank"> Read more...</a> {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+</div>

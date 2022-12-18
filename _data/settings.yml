@@ -1,6 +1,8 @@
 news:
   news_limit: 5
 
+awards:
+  awards_sewlected_limit: 5
 
 software:
   github_profile: leonardopedroso

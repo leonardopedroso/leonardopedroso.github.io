@@ -1,0 +1,65 @@
+# List in Awards page
+
+# Mandatory:
+# - title
+# - date (YYYY-MM-DD) % If MM and/or DD are undefined input 01
+# the date field is only for sorting purposes
+
+# Optional:
+# - read_more
+
+#####  2022  #####
+
+- title: "Professor Jaime Campos Ferreira Award 2022 for <b>effort, creativity, and ingenuity in mathematics</b>."
+  date: 2022-11-01
+  read_more: https://math.tecnico.ulisboa.pt/teaching/ppjcf/?lang=en
+
+- title: "<b>Highest GPA</b> in Instituto Superior Técnico in 2021/2022."
+  date: 2022-10-02
+
+- title: "<b>Outstanding academic performance</b> award ULisboa 2020/2021."
+  date: 2022-10-01
+
+- title: "<b>Academic excellence</b> diploma Instituto Superior Técnico 2020/2021."
+  date: 2022-04-01
+
+
+#####  2021  #####
+
+- title: "<b>Outstanding academic performance</b> award ULisboa 2019/2020."
+  date: 2021-10-01
+
+- title: "<b>Academic excellence</b> diploma Instituto Superior Técnico 2019/2020."
+  date: 2021-04-01
+
+#####  2020  #####
+
+- title: "<b>Outstanding academic performance</b> award ULisboa 2018/2019."
+  date: 2020-10-01
+
+- title: "<b>Academic excellence</b> diploma Instituto Superior Técnico 2018/2019."
+  date: 2020-04-01
+
+#####  2019  #####
+
+- title: "<b>Highest GPA</b> in Instituto Superior Técnico in 2018/2019."
+  date: 2019-10-02
+
+- title: "<b>Outstanding academic performance</b> award ULisboa 2017/2018."
+  date: 2019-10-01
+
+- title: "<b>Academic excellence</b> diploma Instituto Superior Técnico 2017/2018."
+  date: 2019-04-01
+
+#####  2018  #####
+
+- title: "<b>Winner</b> Bitchallenge 2018."
+  date: 2018-10-31
+  read_more: http://bitchallenge.tecnico.ulisboa.pt/BitChallenge18_class1/index.html
+
+
+#####  2017  #####
+
+- title: "<b>Honorable mention</b> in the 48th International Physics Olympiad (IPhO)."
+  date: 2017-07-01
+  read_more: https://ipho-unofficial.org/timeline/2017/individual

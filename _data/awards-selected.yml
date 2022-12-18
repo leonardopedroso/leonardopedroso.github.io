@@ -1,0 +1,14 @@
+# Selected distinctions list in Awards page
+
+# Mandatory:
+# - title
+# - date (YYYY-MM-DD) % If MM and/or DD are undefined input 01
+
+# Optional:
+# - read_more
+
+#####  2022  #####
+
+- title: "Professor Jaime Campos Ferreira Award 2022 for <b>effort, creativity, and ingenuity in mathematics</b>."
+  date: 2022-11-01
+  read_more: https://math.tecnico.ulisboa.pt/teaching/ppjcf/?lang=en
