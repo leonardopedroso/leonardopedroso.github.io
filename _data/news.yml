@@ -10,6 +10,13 @@
 # Optional:
 # - read_more (url to page or external link)
 
+
+- date: 2023-02-12
+  content: "Our paper '<b>Decentralized moving horizon estimation for large-scale networks of interconnected unconstrained linear systems</b>' was accepted and will be published in the IEEE TCNS."
+  read_more: https://ieeexplore.ieee.org/document/10042003
+
+
+
 - date: 2022-11-01
   content: "I was awarded the Prof. JCF Award 2022 for <b>effort, creativity, and ingenuity in mathematics</b>."
   read_more: https://math.tecnico.ulisboa.pt/teaching/ppjcf/?lang=en

@@ -1,6 +1,7 @@
 <div class="news">
+  <div class="container">
   {%- assign news_size = site.data.awards-selected | size -%}
-  <div class="table-responsive">
+
       <table class="table">
         {%- assign news = site.data.awards-selected -%}
         {% if site.data.settings.news.news_limit %}

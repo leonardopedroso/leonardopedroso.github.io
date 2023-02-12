@@ -15,6 +15,22 @@
 
 ##### 2023 #####
 
+- citation: "L. Pedroso and P. Batista, <b>'Decentralized moving horizon estimation for large-scale networks of interconnected unconstrained linear systems'</b>, <i>IEEE Transactions on Control of Network Systems</i>, doi: 10.1109/TCNS.2023.3244086."
+  url: https://ieeexplore.ieee.org/document/10042003
+  pdf: http://web.tecnico.ulisboa.pt/ist189691/publications/2023_02_pedroso_decentralized_ieee-tcns.pdf
+  abstract: "This paper addresses the problem of designing a decentralized state estimation solution for a large-scale network of interconnected unconstrained linear time invariant (LTI) systems. The problem is tackled in a novel moving horizon estimation (MHE) framework, while taking into account the limited communication capabilities and the restricted computational power and memory, which are distributed across the network. The proposed design is motivated by the fact that, in a decentralized setting, a Luenberguer-based framework is unable to leverage the full potential of the available local information. A method is derived to solve a relaxed version of the resulting optimization problem. It can be synthesized offline and its stability can be assessed prior to deployment. It is shown that the proposed approach allows for significant improvement on the performance of recent Luenberger-based filters. Furthermore, we show that a state-of-the-art distributed MHE solution with comparable requirements underperforms in comparison to the proposed solution."
+  bibtex: "@article{pedroso2023decentralized,<br>
+  author = {Pedroso, Leonardo and Batista, Pedro},<br>
+	title = {Decentralized moving horizon estimation for large-scale networks of interconnected unconstrained linear systems},<br>
+	journal = {IEEE Transactions on Control of Network Systems},<br>
+	volume = {},<br>
+	number = {},<br>
+	pages = {},<br>
+	doi = {https://doi.org/10.1109/TCNS.2023.3244086},<br>
+	year = {2023}<br>
+}"
+  github: https://decenter2021.github.io/examples/MHEMFH/
+
 - citation: "L. Pedroso and P. Batista, <b>‘Discrete-time decentralized linear quadratic control for linear time-varying systems’</b>, <i>International Journal of Robust and Nonlinear Control</i>, vol. 33, no. 1, pp. 67–101, 2023. doi:10.1002/rnc.5772"
   url: https://onlinelibrary.wiley.com/doi/abs/10.1002/rnc.5772
   pdf: http://web.tecnico.ulisboa.pt/ist189691/publications/2023_01_pedroso_discrete_ijrnc_goa.pdf

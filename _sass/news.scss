@@ -1,35 +1,38 @@
 
 .news{
 
+  .container{
+        display:flex;
+
     table {
-      width: 100%;
       border: none;
       border-collapse: collapse;
-      white-space: nowrap;
       font-size: $type-size-4;
     }
 
     th {
       border: none;
-      padding: 0.4em;
       font-weight: bold;
       text-align: left;
       border-right: none;
       margin-right: 0em;
+      padding-right: 0em;
       font-size: $type-size-4;
       min-width: 0.25em;
+      vertical-align: top;
+      padding-bottom: 0.2em;
+      padding-top: 0.2em;
     }
 
     td {
       border: none;
-      width: 100%;
-      padding: 0.4em;
       border-bottom: none;
       border-right: none;
+      padding-left: 1em;
+      padding-bottom: 0.2em;
+      padding-top: 0.2em;
       font-size: $type-size-3;
-      padding-left: 0.4em;
+      text-align: justify;
     }
-
-
-
+}
 }
