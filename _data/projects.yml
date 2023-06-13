@@ -36,6 +36,15 @@
 #  github: https://github.com/decenter2021
 #  youtube: https://www.youtube.com/@decenterproject
 
+
+
+- title: "FISH: Fair Incentive mechanisms for Sustainable Human-centered mobility"
+  description: "The presence of self-interested users in shared resource allocation settings leads to usage patters that inefficient compared with the system’s optimum. Specifically, within mobility systems, the presence of self-interested commuters leads to aggregate routing patterns that are far from the societal optimum that could be achieved by centrally controlling the user’s mobility patters. With the FISH project we strive to develop human-centered fair incentive mechanisms through artificial currencies so that the selfish behavior of the users aligns with the societally-optimal aggregate behaviour."
+  duration: January 2023 - Present
+  url: https://fish-tue.github.io
+  img: fish.jpg
+  github: https://github.com/fish-tue
+
 - title: DECENTER
   description: "This project aims to develop novel algorithms for the design of decentralized controllers and observers for large-scale complex systems that provide a significant improvement to the current state-of-the-art, both in terms of achieved performance and computational burden. It departs from previous approaches in that new iterative algorithms will be devised to approximate the optimal solution. This will be accomplished by first formulating and solving optimization problems that admit closed-form, computationally efficient solutions. Afterwards, novel divide-and-conquer algorithms will be derived by iterating through simpler problems, both forward and backward in time, to improve the solution. Linear time invariant systems will first be considered but the algorithms will also be seamlessly adapted to periodic linear systems and linear time-varying systems. The extension to nonlinear systems will be considered next, resorting to the linearization around operating equilibrium points."
   duration: September 2019 - August 2022

@@ -1,0 +1,53 @@
+# List in Software page
+# If there are no entries, this section is not displayed
+
+# Mandatory:
+# - title
+# - authors
+# - year
+# - description
+# - url (main reference: github repo, external site, paper, etc...)
+
+# Optional:
+# - img (filename of image in /images/software)
+# - license ('_' -> ' '; '--' -> '-')
+# - license_url (must be provided if license is provided)
+# - language
+# - github
+# - video
+# - pdf
+
+
+# 2023
+
+- title: "Distributed decentralized control for very large-scale systems with application to LEO satellite mega-constellations"
+  description: Invited talk at Secure Learning and Control Lab, Uppsala University, Sweden
+  year: March 2023
+  img: DDELQR.webp
+  url: http://web.tecnico.ulisboa.pt/ist189691/presentations/2023_05_uppsala.pdf
+  pdf: http://web.tecnico.ulisboa.pt/ist189691/presentations/2023_05_uppsala.pdf
+
+
+- title: "Urgency-aware Routing in Single Origin-destination Itineraries through Artificial Currencies"
+  description: 42nd Benelux Meeting on Systems and Control
+  year: March 2023
+  img: benelux2023.webp
+  url: http://web.tecnico.ulisboa.pt/ist189691/presentations/2023_03_benelux.pdf
+  pdf: http://web.tecnico.ulisboa.pt/ist189691/presentations/2023_03_benelux.pdf
+
+
+# 2022
+
+- title: "SAFFRON: Store-And-Forward model toolbox For urban ROad Network signal control in MATLAB"
+  description: 25th IEEE International Conference on Intelligent Transportation Systems
+  year: October 2022
+  img: saffron.webp
+  url: http://web.tecnico.ulisboa.pt/ist189691/presentations/2022_10_itsc.pdf
+  pdf: http://web.tecnico.ulisboa.pt/ist189691/presentations/2022_10_itsc.pdf
+
+- title: "Decentralized linear quadratic control for networks with time-varying dynamics: design and applications"
+  description: Invited talk at Division of Decision and Control Systems, KTH Royal Institute of Technology, Sweden
+  year: July 2022
+  img: quadruple.webp
+  url: http://web.tecnico.ulisboa.pt/ist189691/presentations/2022_06_kth.pdf
+  pdf: http://web.tecnico.ulisboa.pt/ist189691/presentations/2022_06_kth.pdf

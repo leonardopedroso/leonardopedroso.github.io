@@ -15,7 +15,25 @@
 
 ##### 2023 #####
 
-- citation: "L. Pedroso and P. Batista, <b>'Decentralized moving horizon estimation for large-scale networks of interconnected unconstrained linear systems'</b>, <i>IEEE Transactions on Control of Network Systems</i>, doi: 10.1109/TCNS.2023.3244086."
+- citation: "L. Pedroso and P. Batista, <b>'Distributed decentralized EKF for very large-scale networks with application to satellite mega-constellations navigation'</b>, <i>Control Engineering Practice</i>, vol. 135, pp. 105509, 2023. doi: 10.1016/j.conengprac.2023.105509."
+  url: https://www.sciencedirect.com/science/article/pii/S0967066123000783
+  pdf: http://web.tecnico.ulisboa.pt/ist189691/publications/2023_03_pedroso_distributed_cep_goa.pdf
+  abstract: "The design of a decentralized and distributed filtering solution for large-scale networks of interconnected systems is addressed considering (i) generic nonlinear dynamics and (ii) generic coupled nonlinear outputs in a generic, possibly time-varying, topology. The local filters, which follow the structure of the extended Kalman filter, are implemented in each system, which estimates its own state exclusively. To be suitable for the heavily restricted implementation to very large-scale systems, a novel algorithm is proposed, which: (i) does not rely on instantaneous data transmission; (ii) allows local communication exclusively; and (iii) requires computational, memory, and data transmission resources for each system that do not scale with the dimension of the network. The scalability of the proposed algorithm allows for its application to the cooperative localization problem of very large-scale systems. In particular, it is applied herein to the on-board position estimation problem of LEO mega-constellations using GNSS featuring numerical simulations for the Starlink constellation."
+  bibtex: "@article{pedroso2023distributed,<br>
+  author = {Pedroso, Leonardo and Batista, Pedro},<br>
+	title = {Distributed decentralized EKF for very large-scale networks with application to satellite mega-constellations navigation},<br>
+	journal = {Control Engineering Practice},<br>
+	volume = {135},<br>
+	number = {},<br>
+	pages = {105509},<br>
+	doi = {https://doi.org/10.1109/TCNS.2023.3244086},<br>
+	year = {2023}<br>
+}"
+  github: https://decenter2021.github.io/examples/DDEKFStarlinkConstellation/
+
+
+
+- citation: "L. Pedroso and P. Batista, <b>'Decentralized moving horizon estimation for large-scale networks of interconnected unconstrained linear systems'</b>, <i>IEEE Transactions on Control of Network Systems</i>, pp. 1-12, 2023. doi: 10.1109/TCNS.2023.3244086."
   url: https://ieeexplore.ieee.org/document/10042003
   pdf: http://web.tecnico.ulisboa.pt/ist189691/publications/2023_02_pedroso_decentralized_ieee-tcns.pdf
   abstract: "This paper addresses the problem of designing a decentralized state estimation solution for a large-scale network of interconnected unconstrained linear time invariant (LTI) systems. The problem is tackled in a novel moving horizon estimation (MHE) framework, while taking into account the limited communication capabilities and the restricted computational power and memory, which are distributed across the network. The proposed design is motivated by the fact that, in a decentralized setting, a Luenberguer-based framework is unable to leverage the full potential of the available local information. A method is derived to solve a relaxed version of the resulting optimization problem. It can be synthesized offline and its stability can be assessed prior to deployment. It is shown that the proposed approach allows for significant improvement on the performance of recent Luenberger-based filters. Furthermore, we show that a state-of-the-art distributed MHE solution with comparable requirements underperforms in comparison to the proposed solution."
@@ -25,7 +43,7 @@
 	journal = {IEEE Transactions on Control of Network Systems},<br>
 	volume = {},<br>
 	number = {},<br>
-	pages = {},<br>
+	pages = {1-12},<br>
 	doi = {https://doi.org/10.1109/TCNS.2023.3244086},<br>
 	year = {2023}<br>
 }"

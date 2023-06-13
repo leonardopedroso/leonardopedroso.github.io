@@ -24,6 +24,11 @@ sidebar:
   {% include publications.html title="Book Chapters" list=site.data.publications-chapter %}
 {% endif %}
 
+{% if site.data.publications-preprint %}
+***
+  {% include publications.html title="Preprints" list=site.data.publications-preprint %}
+{% endif %}
+
 {% if site.data.publications-conference %}
 ***
   {% include publications.html title="International Conference Papers" list=site.data.publications-conference %}
