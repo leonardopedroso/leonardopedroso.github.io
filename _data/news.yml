@@ -10,6 +10,9 @@
 # Optional:
 # - read_more (url to page or external link)
 
+- date: 2023-07-15
+  content: Our papers '<b>Urgency-aware Routing in Single Origin-destination Itineraries through Artificial Currencies</b>' and '<b>A Time-invariant Network Flow Model for Two-person Ride-pooling Mobility-on-Demand</b>' were accepted for presentation in the IEEE <b>CDC 2023</b>.
+
 - date: 2023-05-30
   content: I gave an invited talk at Secure Learning and Control Lab, Uppsala University, Sweden.
   read_more: http://web.tecnico.ulisboa.pt/ist189691/presentations/2023_05_uppsala.pdf
@@ -19,10 +22,8 @@
   read_more: https://www.sciencedirect.com/science/article/pii/S0967066123000783
 
 - date: 2023-02-12
-  content: "Our paper '<b>Decentralized moving horizon estimation for large-scale networks of interconnected unconstrained linear systems</b>' was accepted and will be published in the IEEE TCNS."
+  content: "Our paper '<b>Decentralized moving horizon estimation for large-scale networks of interconnected unconstrained linear systems</b>' was published in the IEEE TCNS."
   read_more: https://ieeexplore.ieee.org/document/10042003
-
-
 
 - date: 2022-11-01
   content: "I was awarded the Prof. JCF Award 2022 for <b>effort, creativity, and ingenuity in mathematics</b>."

@@ -46,3 +46,22 @@
 	year = {2023}<br>
 }"
   github: https://fish-tue.github.io/single-origin-destination-routing/
+
+##### 2022 #####
+
+- citation: "L. Pedroso, P. Batista, <b>'Distributed decentralized receding horizon control for very large-scale networks with application to LEO satellite mega-constellations'</b>, <i>arXiv preprint arXiv:2209.14951</i>. doi: 10.48550/arXiv:2209.14951."
+  url: https://arxiv.org/abs/2209.14951
+  pdf: https://arxiv.org/pdf/2209.14951.pdf
+  abstract: "The implementation feasibility of decentralized control algorithms over very large-scale networks ushers in limiting constraints regarding communication, computational, and memory requirements. Thus, befitting control solutions must be implemented distributively over the network of systems. In this paper, the decentralized receding horizon control problem for very large-scale networks of dynamically decoupled systems with a common, possibly time-varying, control objective is addressed. Each system is assumed to be modeled by linear time-varying dynamics, which can be leveraged to approximate nonlinear systems about successive points of operation. A distributed and decentralized receding horizon control solution is put forward, which: i) takes communication delays into account; ii) allows local communication exclusively; and iii) whose computational and memory requirements in each computational unit do not scale with the dimension of the network. The scalability of the proposed solution enables emerging very large-scale applications of swarm robotics and networked control. It is applied herein to the orbit control problem of LEO mega-constellations featuring high-fidelity numerical simulations for the Starlink constellation."
+  bibtex: "@article{pedrosobatista2022distributed,<br>
+  author = {Pedroso, Leonardo and Batista, Pedro},<br>
+	title = {Distributed decentralized receding horizon control for very large-scale networks with application to LEO satellite mega-constellations},<br>
+	journal = {arXiv preprint arXiv:2209.14951},<br>
+	volume = {},<br>
+	number = {},<br>
+	pages = {},<br>
+	doi = {10.48550/arXiv.2209.14951},<br>
+	year = {2022}<br>
+}"
+  github: https://decenter2021.github.io/examples/DDRHCStarlink/
+  video: https://youtu.be/psfW6-85lr0
