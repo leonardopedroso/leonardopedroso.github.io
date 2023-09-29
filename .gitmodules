@@ -1,1 +1,4 @@
 
+[submodule "_data/bibliography"]
+	path = _data/bibliography
+	url = https://github.com/leonardopedroso/bibliography.git
