@@ -24,8 +24,8 @@
   description: 62nd IEEE Conference on Decision and Control
   year: December 2023
   img: benelux2023.webp
-  url: https://leonardopedroso.github.io/assets/presentations/2023_12_PedrosoHeemelsEtAl2023KarmaParallel.pdf
-  pdf: https://leonardopedroso.github.io/assets/presentations/2023_12_PedrosoHeemelsEtAl2023KarmaParallel.pdf
+  url: https://leonardopedroso.github.io/assets/pdf/presentations/2023_12_PedrosoHeemelsEtAl2023KarmaParallel.pdf
+  pdf: https://leonardopedroso.github.io/assets/pdf/presentations/2023_12_PedrosoHeemelsEtAl2023KarmaParallel.pdf
 
 - title: "Distributed decentralized control for very large-scale systems with application to LEO satellite mega-constellations"
   description: Invited talk at Secure Learning and Control Lab, Uppsala University, Sweden
