@@ -20,20 +20,19 @@
 
 # 2023
 
+- title: "Urgency-aware Routing in Single Origin-destination Itineraries through Artificial Currencies"
+  description: 62nd IEEE Conference on Decision and Control
+  year: December 2023
+  img: benelux2023.webp
+  url: https://leonardopedroso.github.io/assets/presentations/2023_12_PedrosoHeemelsEtAl2023KarmaParallel.pdf
+  pdf: https://leonardopedroso.github.io/assets/presentations/2023_12_PedrosoHeemelsEtAl2023KarmaParallel.pdf
+
 - title: "Distributed decentralized control for very large-scale systems with application to LEO satellite mega-constellations"
   description: Invited talk at Secure Learning and Control Lab, Uppsala University, Sweden
   year: March 2023
   img: DDELQR.webp
   url: http://web.tecnico.ulisboa.pt/ist189691/presentations/2023_05_uppsala.pdf
   pdf: http://web.tecnico.ulisboa.pt/ist189691/presentations/2023_05_uppsala.pdf
-
-
-- title: "Urgency-aware Routing in Single Origin-destination Itineraries through Artificial Currencies"
-  description: 42nd Benelux Meeting on Systems and Control
-  year: March 2023
-  img: benelux2023.webp
-  url: http://web.tecnico.ulisboa.pt/ist189691/presentations/2023_03_benelux.pdf
-  pdf: http://web.tecnico.ulisboa.pt/ist189691/presentations/2023_03_benelux.pdf
 
 
 # 2022

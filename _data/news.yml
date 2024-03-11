@@ -10,6 +10,10 @@
 # Optional:
 # - read_more (url to page or external link)
 
+- date: 2024-02-29
+  content: Our paper '<b>Congestion-aware Ride-pooling in Mixed Traffic for Autonomous Mobility-on-Demand Systems</b>' was accepted for presentation at <b>ECC 2024</b>.
+  read_more: https://arxiv.org/abs/2311.03268
+
 - date: 2023-10-04
   content: "Our paper '<b>Distributed decentralized receding horizon control for very large-scale networks with application to satellite mega-constellations</b>' was published in Control Engineering Practice."
   read_more: https://www.sciencedirect.com/science/article/pii/S0967066123002976
