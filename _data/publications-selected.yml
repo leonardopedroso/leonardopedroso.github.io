@@ -15,6 +15,17 @@
 # - github
 # - video
 
+
+- title: "Fair Artificial Currency Incentives in Repeated Weighted Congestion Games: Equity vs. Equality"
+  authors: Leonardo Pedroso, Andrea Agazzi, W.P.M.H. Heemels, Mauro Salazar
+  journal: arXiv preprint, 2024
+  url: https://arxiv.org/abs/2403.03999
+  pdf: https://arxiv.org/pdf/2403.03999.pdf
+  img: fair.webp
+  abstract: "When users access shared resources in a selfish manner, the resulting societal cost and perceived users' cost is often higher than what would result from a centrally coordinated optimal allocation. While several contributions in mechanism design manage to steer the aggregate users choices to the desired optimum by using monetary tolls, such approaches bear the inherent drawback of discriminating against users with a lower income. More recently, incentive schemes based on artificial currencies have been studied with the goal of achieving a system-optimal resource allocation that is also fair. In this resource-sharing context, this paper focuses on repeated weighted congestion game with two resources, where users contribute to the congestion to different extents that are captured by individual weights. First, we address the broad concept of fairness by providing a rigorous mathematical characterization of the distinct societal metrics of equity and equality, i.e., the concepts of providing equal outcomes and equal opportunities, respectively. Second, we devise weight-dependent and time-invariant optimal pricing policies to maximize equity and equality, and prove convergence of the aggregate user choices to the system-optimum. In our framework it is always possible to achieve system-optimal allocations with perfect equity, while the maximum equality that can be reached may not be perfect, which is also shown via numerical simulations."
+  github: https://fish-tue.github.io/AC-weighted-eqt-eql/
+  bibtex: "@misc{PedrosoAgazziEtAl2024EqtEql,<br>author = {Leonardo Pedroso and Andrea Agazzi and W. P. M. H. Heemels and Mauro Salazar},<br>title = {Fair Artificial Currency Incentives in Repeated Weighted Congestion Games: Equity vs. Equality},<br>note = {arXiv preprint arXiv:2403.03999},<br>year = {2024},<br>doi = {10.48550/arXiv.2403.03999}<br>}"
+
 - title: Distributed decentralized receding horizon control for very large-scale networks with application to satellite mega-constellations
   authors: Leonardo Pedroso and Pedro Batista
   journal: Control Engineering Practice, 2023
@@ -25,18 +36,6 @@
   github: https://decenter2021.github.io/examples/DDRHCStarlink/
   video: https://youtu.be/psfW6-85lr0
   bibtex: "@article{PedrosoBatista2023DistributedRHC,<br>author = {Leonardo Pedroso and Pedro Batista},<br>title = {Distributed decentralized receding horizon control for very large-scale networks with application to satellite mega-constellations},<br>journal = {Control Engineering Practice},<br>year = {2023},<br>volume = {141},<br>pages = {105728},<br>doi = {10.1016/j.conengprac.2023.105728}<br>}"
-
-
-- title: Decentralized moving horizon estimation for large-scale networks of interconnected unconstrained linear systems
-  authors: Leonardo Pedroso and Pedro Batista
-  journal: IEEE Transactions on Control of Network Systems, 2023
-  url: https://ieeexplore.ieee.org/document/10042003
-  pdf: http://web.tecnico.ulisboa.pt/ist189691/publications/2023_02_pedroso_decentralized_ieee-tcns.pdf
-  img: graph_big3.webp
-  abstract: "This paper addresses the problem of designing a decentralized state estimation solution for a large-scale network of interconnected unconstrained linear time invariant (LTI) systems. The problem is tackled in a novel moving horizon estimation (MHE) framework, while taking into account the limited communication capabilities and the restricted computational power and memory, which are distributed across the network. The proposed design is motivated by the fact that, in a decentralized setting, a Luenberguer-based framework is unable to leverage the full potential of the available local information. A method is derived to solve a relaxed version of the resulting optimization problem. It can be synthesized offline and its stability can be assessed prior to deployment. It is shown that the proposed approach allows for significant improvement on the performance of recent Luenberger-based filters. Furthermore, we show that a state-of-the-art distributed MHE solution with comparable requirements underperforms in comparison to the proposed solution."
-  github: https://decenter2021.github.io/examples/MHEMFH/
-  bibtex: "@article{PedrosoBatista2023DecentralizedMHE,<br>author = {Leonardo Pedroso and Pedro Batista},<br>title = {Decentralized moving horizon estimation for large-scale networks of interconnected unconstrained linear systems},<br>journal = {IEEE Transactions on Control of Network Systems},<br>year = {2023},<br>pages = {1-12},<br>doi = {10.1109/TCNS.2023.3244086}<br>}"
-
 
 - title: Reproducible low-cost flexible quadruple-tank process experimental setup for control educators, practitioners, and researchers
   authors: Leonardo Pedroso and Pedro Batista
@@ -49,7 +48,6 @@
   github: https://github.com/decenter2021/quadruple-tank-setup
   video: https://www.youtube.com/watch?v=-mkMukfFTuA&list=PLj6JXRV4qcgboMBOonhQY3f7nb1WQ0N1v
 
-
 - title: Decentralized store-and-forward based strategies for the signal control problem in large-scale congested urban road networks
   authors: Leonardo Pedroso and Pedro Batista
   journal: "Transportation Research Part C: Emerging Technologies, 2021"
@@ -59,3 +57,15 @@
   abstract: "Signal control strategies for congested urban road networks designed in a centralized framework require many communication links, serious processing power, and infrastructure for the centralized coordination. As a result, strategies based on a centralized framework are not scalable. The use of decentralized signal control strategies for large-scale urban traffic networks is a solution to this problem, since it allows for the implementation of such strategies on networks whose centralized solution is not easily scalable. This paper addresses the problem of designing a decentralized traffic-responsive signal control solution, proposing two methods based on different formulations of the store-and-forward model: (i) the Decentralized Traffic-responsive Urban Control (DTUC) method; and (ii) the Decentralized Decoupled Traffic-responsive Urban Control (D2TUC). The decentralized configuration is such that each intersection is associated with one computational unit, with limited computational power and memory, which controls the traffic signals of the incoming links. Sufficient conditions for the controllability of the considered store-and-forward models are also presented. Both methods are validated resorting to numerical simulations of the urban traffic network of Chania, Greece, for two demand scenarios, and their performance is compared with the performance of the Traffic-responsive Urban Control (TUC) centralized strategy. One of the proposed decentralized methods, D2TUC, is shown to match the performance of TUC."
   bibtex: "@article{PedrosoBatista2021SignalControl,<br>author = {Leonardo Pedroso and Pedro Batista},<br>title = {Decentralized store-and-forward based strategies for the signal control problem in large-scale congested urban road networks},<br>journal = {Transportation Research Part C: Emerging Technologies},<br>year = {2021},<br>volume = {132},<br>pages = {103412},<br>doi = {10.1016/j.trc.2021.103412}<br>}"
   github: https://decenter2021.github.io/examples/TrafficNetworkControlOS/
+
+
+
+#- title: Decentralized moving horizon estimation for large-scale networks of interconnected unconstrained linear systems
+#  authors: Leonardo Pedroso and Pedro Batista
+#  journal: IEEE Transactions on Control of Network Systems, 2023
+#  url: https://ieeexplore.ieee.org/document/10042003
+#  pdf: http://web.tecnico.ulisboa.pt/ist189691/publications/2023_02_pedroso_decentralized_ieee-tcns.pdf
+#  img: graph_big3.webp
+#  abstract: "This paper addresses the problem of designing a decentralized state estimation solution for a large-scale network of interconnected unconstrained linear time invariant (LTI) systems. The problem is tackled in a novel moving horizon estimation (MHE) framework, while taking into account the limited communication capabilities and the restricted computational power and memory, which are distributed across the network. The proposed design is motivated by the fact that, in a decentralized setting, a Luenberguer-based framework is unable to leverage the full potential of the available local information. A method is derived to solve a relaxed version of the resulting optimization problem. It can be synthesized offline and its stability can be assessed prior to deployment. It is shown that the proposed approach allows for significant improvement on the performance of recent Luenberger-based filters. Furthermore, we show that a state-of-the-art distributed MHE solution with comparable requirements underperforms in comparison to the proposed solution."
+#  github: https://decenter2021.github.io/examples/MHEMFH/
+#  bibtex: "@article{PedrosoBatista2023DecentralizedMHE,<br>author = {Leonardo Pedroso and Pedro Batista},<br>title = {Decentralized moving horizon estimation for large-scale networks of interconnected unconstrained linear systems},<br>journal = {IEEE Transactions on Control of Network Systems},<br>year = {2023},<br>pages = {1-12},<br>doi = {10.1109/TCNS.2023.3244086}<br>}"
