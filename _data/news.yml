@@ -12,7 +12,9 @@
 
 
 - date: 2024-07-27
-  content: I was distinguished with the <b>Best MSc Thesis Award</b> by the Portuguese Association on Automatic Control.
+  content: I was distinguished with the <b>Best MSc Thesis Award</b> by the Portuguese Automatic Control Association.
+  read_more: https://tecnico.ulisboa.pt/pt/noticias/campus-e-comunidade/tese-de-alumnus-do-tecnico-distinguida-pela-associacao-portuguesa-de-controlo-automatico/
+  #https://apca.pt/premios/
 
 - date: 2023-07-26
   content: "Our paper '<b>Fair Artificial Currency Incentives in Repeated Weighted Congestion Games: Equity vs. Equality</b>' was accepted for presentation in the <b>IEEE CDC 2024</b>."
