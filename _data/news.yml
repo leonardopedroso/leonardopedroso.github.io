@@ -10,6 +10,12 @@
 # Optional:
 # - read_more (url to page or external link)
 
+- date: 2025-03-01
+  content: "Our paper '<b>Distributed Design of Ultra Large-Scale Control Systems: Progress, Challenges, and Prospects</b>' was published in Annual Reviews in Control."
+  read_more: https://www.sciencedirect.com/science/article/pii/S0967066123002976
+
+- date: 2024-11-01
+  content: I visited Prof. Andrea Agazzi in the Mathematics Department at the University of Pisa.
 
 - date: 2024-07-27
   content: I was distinguished with the <b>Best MSc Thesis Award</b> by the Portuguese Automatic Control Association.
@@ -20,9 +26,9 @@
   content: "Our paper '<b>Fair Artificial Currency Incentives in Repeated Weighted Congestion Games: Equity vs. Equality</b>' was accepted for presentation in the <b>IEEE CDC 2024</b>."
   read_more: https://arxiv.org/abs/2403.03999
 
-- date: 2024-05-06
-  content: "Our paper '<b>A Time-invariant Network Flow Model for Ride-pooling in Mobility-on-Demand Systems</b>' was published in the IEEE TCNS."
-  read_more: https://ieeexplore.ieee.org/abstract/document/10605118
+#- date: 2024-05-06
+#  content: "Our paper '<b>A Time-invariant Network Flow Model for Ride-pooling in Mobility-on-Demand Systems</b>' was published in the IEEE TCNS."
+#  read_more: https://ieeexplore.ieee.org/abstract/document/10605118
 
 #- date: 2024-02-29
 #  content: Our paper '<b>Congestion-aware Ride-pooling in Mixed Traffic for Autonomous Mobility-on-Demand Systems</b>' was accepted for presentation at <b>ECC 2024</b>.
