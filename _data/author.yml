@@ -4,7 +4,7 @@
 author:
   name          : Leonardo Pedroso
   avatar        : profile_2.webp
-  bio           : <p style="margin-bottom:5px;margin-bottom:5px;">🧪 PhD Student @ TU Eindhoven</p>
+  bio           : <p>🧪 PhD Student @ TU Eindhoven<br>🚀 PhD Student @ IST Lisbon</p>
   location      : Eindhoven, The Netherlands 🇳🇱
   email         : l.pedroso@tue.nl
   researchgate  : Leonardo-Pedroso
@@ -13,4 +13,4 @@ author:
   github        : leonardopedroso
   orcid         : 0000-0002-1508-496X
   youtube       : https://www.youtube.com/channel/UCTWvZ0UXdDmVCDUhzyPXLiQ
-  about-me      : I am a <b>PhD</b> Student at the <b>Control Systems Technology</b> Research Group at <b>TU Eindhoven</b>. I received the BSc and MSc in <b>Aerospace Engineering</b> in 2020 and 2022, from Instituto Superior Técnico, University of Lisbon, Portugal. I received four <b>academic excellence diplomas</b>, endowed by IST, and four <b>outstanding academic performance</b> awards, endowed by ULisboa. I was also distinguished with the <b>Best MSc Thesis Award</b> by the Portuguese Automatic Control Association. My current research interests are <b>mean-field games</b> and <b>distributed control and estimation</b> of ultra large-scale systems.
+  about-me      : I'm a <b>PhD</b> Student at the <b>Control Systems Technology</b> group at <b>TU Eindhoven</b> since 2023. Since 2024, I'm working towards a second PhD degree in <b>Aerospace Engineering</b> with the <b>Institute for Systems and Robotics</b>,  Instituto Superior Técnico (IST). I received the BSc and MSc in Aerospace Engineering in 2020 and 2022 from IST. I was distinguished with the <b>Best MSc Thesis Award</b> by the Portuguese Automatic Control Association. My current research interests are <b>mean field games</b> and <b>distributed control and estimation</b> of ultra large-scale systems.
