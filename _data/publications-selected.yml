@@ -15,6 +15,8 @@
 # - github
 # - video
 
+
+
 - title: "Distributed Design of Ultra Large-Scale Control Systems: Progress, Challenges, and Prospects"
   authors: Leonardo Pedroso, Pedro Batista and W.P.M.H. Heemels
   journal: Annual Reviews in Control, 2025
@@ -24,6 +26,16 @@
   abstract: "The transition from large centralized complex control systems to distributed configurations that rely on a network of a very large number of interconnected simpler subsystems is ongoing and inevitable in many applications. It is attributed to the quest for resilience, flexibility, and scalability in a multitude of engineering fields with far-reaching societal impact. Although many design methods for distributed and decentralized control systems are available, most of them rely on a centralized design procedure requiring some form of global information of the whole system. Clearly, beyond a certain scale of the network, these centralized design procedures for distributed controllers are no longer feasible and we refer to the corresponding systems as ultra large-scale systems (ULSS). For these ULSS, design algorithms are needed that are distributed themselves among the subsystems and are subject to stringent requirements regarding communication, computation, and memory usage of each subsystem. In this paper, a set of requirements is provided that assures a feasible real-time implementation of all phases of a control solution on an ultra large scale. State-of-the-art approaches are reviewed in the light of these requirements and the challenges hampering the development of befitting control algorithms are pinpointed. Comparing the challenges with the current progress leads to the identification and motivation of promising research directions."
   bibtex: "@article{PedrosoBatistaEtAl2025ULSS,<br>author = {Leonardo Pedroso and Pedro Batista and W. P. M. H. Heemels},<br>title = {Distributed design of ultra large-scale control systems: Progress, Challenges, and Prospects},<br>journal = {Annual Reviews in Control},<br>year = {2025},<br>volume = {59},<br>pages = {100987},<br>doi = {10.1016/j.arcontrol.2025.100987}<br>}"
 
+- title: "Overlapping Covariance Intersection: Fusion with Partial Structural Knowledge of Correlation from Multiple Sources"
+  authors: Leonardo Pedroso, Pedro Batista and W.P.M.H. Heemels
+  journal: arXiv preprint, 2026
+  url: https://arxiv.org/abs/2603.16768
+  pdf: https://arxiv.org/pdf/2603.16768
+  img: oci.webp
+  abstract: "Emerging large-scale engineering systems rely on distributed fusion for situational awareness, where agents combine noisy local sensor measurements with exchanged information to obtain fused estimates. However, at the sheer scale of these systems, tracking cross-correlations becomes infeasible, preventing the use of optimal filters. Covariance intersection (CI) methods address fusion problems with unknown correlations by minimizing worst-case uncertainty based on available information. Existing CI extensions exploit limited correlation knowledge but cannot incorporate structural knowledge of correlation from multiple sources, which naturally arises in distributed fusion problems. This paper introduces Overlapping Covariance Intersection (OCI), a generalized CI framework that accommodates this novel information structure. We formalize the OCI problem and establish necessary and sufficient conditions for feasibility. We show that a family-optimal solution can be computed efficiently via semidefinite programming, enabling real-time implementation. The proposed tools enable improved fusion performance for large-scale systems while retaining robustness to unknown correlations."
+  bibtex: "@misc{PedrosoBatistaEtAl2026OCI,<br>author = {L. Pedroso and P. Batista and W. P. M. H. Heemels},<br>title = {Overlapping Covariance Intersection: Fusion with Partial Structural Knowledge of Correlation from Multiple Sources},<br>note = {arXiv preprint arXiv:2603.16768},<br>year = {2026},<br>doi = {10.48550/arXiv.2603.16768}<br>}"
+
+
 - title: "Evolutionary Dynamics in Continuous-time Finite-state Mean Field Games: Equilibria and Stability"
   authors: Leonardo Pedroso, Andrea Agazzi, W.P.M.H. Heemels, Mauro Salazar
   journal: arXiv preprint, 2025
@@ -32,6 +44,8 @@
   img: mfg.webp
   abstract: "We study a dynamic game with a large population of players who choose actions from a finite set in continuous time. Each player has a state in a finite state space that evolves stochastically with their actions. A player's reward depends not only on their own state and action but also on the distribution of states and actions across the population, capturing effects such as congestion in traffic networks. While prior work in evolutionary game theory has primarily focused on static games without individual player state dynamics, we present the first comprehensive evolutionary analysis of such dynamic games. We propose an evolutionary model together with a mean field approximation of the finite-population game and establish strong approximation guarantees. We show that standard solution concepts for dynamic games lack an evolutionary interpretation, and we propose a new concept - the Mixed Stationary Nash Equilibrium (MSNE) - which admits one. We analyze the relationship between MSNE and the rest points of the mean field evolutionary model and study the evolutionary stability of MSNE."
   bibtex: "@misc{PedrosoAgazziEtAl2025MFGAvg,<br>author = {Leonardo Pedroso and Andrea Agazzi and W. P. M. H. Heemels and Mauro Salazar},<br>title = {Evolutionary Dynamics in Continuous-time Finite-state Mean Field Games - {Part I}: Equilibria},<br>note = {arXiv preprint arXiv:2511.01452},<br>year = {2025},<br>doi = {10.48550/arXiv.2511.01452}<br>}"
+
+
 
 #- title: "Fair Artificial Currency Incentives in Repeated Weighted Congestion Games: Equity vs. Equality"
 #  authors: Leonardo Pedroso, Andrea Agazzi, W.P.M.H. Heemels, Mauro Salazar
@@ -43,16 +57,16 @@
 #  github: https://fish-tue.github.io/AC-weighted-eqt-eql/
 #  bibtex: "@inproceedings{PedrosoAgazziEtAl2024EqtEql,<br>author = {Leonardo Pedroso and Andrea Agazzi and W. P. M. H. Heemels and Mauro Salazar},<br>title = {Fair Artificial Currency Incentives in Repeated Weighted Congestion Games: Equity vs. Equality},<br>booktitle = {63rd IEEE Conference on Decision and Control},<br>year = {2024},<br>pages = {954-959},<br>doi = {10.1109/CDC56724.2024.10886786}<br>}"
 
-- title: Distributed decentralized EKF for very large-scale networks with application to satellite mega-constellations navigation
-  authors: Leonardo Pedroso and Pedro Batista
-  journal: Control Engineering Practice, 2023
-  url: https://www.sciencedirect.com/science/article/pii/S0967066123000783
-  pdf: http://web.tecnico.ulisboa.pt/ist189691/publications/2023_03_pedroso_distributed_cep_goa.pdf
-  img: sat_doodle.webp
-  abstract: "The design of a decentralized and distributed filtering solution for large-scale networks of interconnected systems is addressed considering (i) generic nonlinear dynamics and (ii) generic coupled nonlinear outputs in a generic, possibly time-varying, topology. The local filters, which follow the structure of the extended Kalman filter, are implemented in each system, which estimates its own state exclusively. To be suitable for the heavily restricted implementation to very large-scale systems, a novel algorithm is proposed, which: (i) does not rely on instantaneous data transmission; (ii) allows local communication exclusively; and (iii) requires computational, memory, and data transmission resources for each system that do not scale with the dimension of the network. The scalability of the proposed algorithm allows for its application to the cooperative localization problem of very large-scale systems. In particular, it is applied herein to the on-board position estimation problem of LEO mega-constellations using GNSS featuring numerical simulations for the Starlink constellation."
-  github: https://decenter2021.github.io/examples/DDEKFStarlinkConstellation/
-  video: https://youtu.be/psfW6-85lr0
-  bibtex: "@article{PedrosoBatista2023DistributedEKF,<br>author = {Leonardo Pedroso and Pedro Batista},<br>title = {Distributed decentralized {EKF} for very large-scale networks with application to satellite mega-constellations navigation},<br>journal = {Control Engineering Practice},<br>year = {2023},<br>volume = {135},<br>pages = {105509},<br>doi = {10.1016/j.conengprac.2023.105509}<br>}"
+#- title: Distributed decentralized EKF for very large-scale networks with application to satellite mega-constellations navigation
+#  authors: Leonardo Pedroso and Pedro Batista
+#  journal: Control Engineering Practice, 2023
+#  url: https://www.sciencedirect.com/science/article/pii/S0967066123000783
+#  pdf: http://web.tecnico.ulisboa.pt/ist189691/publications/2023_03_pedroso_distributed_cep_goa.pdf
+#  img: sat_doodle.webp
+#  abstract: "The design of a decentralized and distributed filtering solution for large-scale networks of interconnected systems is addressed considering (i) generic nonlinear dynamics and (ii) generic coupled nonlinear outputs in a generic, possibly time-varying, topology. The local filters, which follow the structure of the extended Kalman filter, are implemented in each system, which estimates its own state exclusively. To be suitable for the heavily restricted implementation to very large-scale systems, a novel algorithm is proposed, which: (i) does not rely on instantaneous data transmission; (ii) allows local communication exclusively; and (iii) requires computational, memory, and data transmission resources for each system that do not scale with the dimension of the network. The scalability of the proposed algorithm allows for its application to the cooperative localization problem of very large-scale systems. In particular, it is applied herein to the on-board position estimation problem of LEO mega-constellations using GNSS featuring numerical simulations for the Starlink constellation."
+#  github: https://decenter2021.github.io/examples/DDEKFStarlinkConstellation/
+#  video: https://youtu.be/psfW6-85lr0
+#  bibtex: "@article{PedrosoBatista2023DistributedEKF,<br>author = {Leonardo Pedroso and Pedro Batista},<br>title = {Distributed decentralized {EKF} for very large-scale networks with application to satellite mega-constellations navigation},<br>journal = {Control Engineering Practice},<br>year = {2023},<br>volume = {135},<br>pages = {105509},<br>doi = {10.1016/j.conengprac.2023.105509}<br>}"
 
 #- title: Reproducible low-cost flexible quadruple-tank process experimental setup for control educators, practitioners, and researchers
 #  authors: Leonardo Pedroso and Pedro Batista
